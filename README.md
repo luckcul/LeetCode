@@ -2,6 +2,18 @@
 
 ## LeetCode Algorithms
 
+### [12.Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
+
+Convert an integer to a [roman numeral](https://en.wikipedia.org/wiki/Roman_numerals).
+
+Notice, 4 is IV, and 9 is IX. It's same for 40, 90, 400, 900. And converting integer to roman numeral is the same as converting a decimal number to hexadecimal.
+
+### [13.Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+
+It is similar to the last problem.
+
+We can convert roman numeral to integer from high to low or low to high.
+
 ### [338. Counting Bits](https://leetcode.com/problems/counting-bits/)
 
 It's easy to solve this problem by O(n*log(n)) algorithm. 
