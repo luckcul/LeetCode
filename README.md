@@ -8,7 +8,7 @@
 
 求数列中两个数加起来等于目标值。返回这两个值的索引下标。
 
-C++中用map辅助下。O(n*log(n))的复杂度。
+C++中用map。O(n*log(n))的复杂度。
 
 ### [12.Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
 
@@ -21,6 +21,10 @@ Notice, 4 is IV, and 9 is IX. It's same for 40, 90, 400, 900. And converting int
 It is similar to the last problem.
 
 We can convert roman numeral to integer from high to low or low to high.
+
+### [191.Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+
+求32-bit integer中写成二进制`1`的个数。从末尾依次找即可，O(log(n)) 解决。
 
 ### [338. Counting Bits](https://leetcode.com/problems/counting-bits/)
 
