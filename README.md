@@ -1,6 +1,14 @@
 # LeetCode
 
+还尝试英文写题解，实在表达不好，还是上中文。好多题目没有数据范围，有点不适应。
+
 ## LeetCode Algorithms
+
+### [1.Two Sum](https://leetcode.com/problems/two-sum/)
+
+求数列中两个数加起来等于目标值。返回这两个值的索引下标。
+
+C++中用map辅助下。O(n*log(n))的复杂度。
 
 ### [12.Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
 
