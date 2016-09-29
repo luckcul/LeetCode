@@ -30,6 +30,12 @@ We can convert roman numeral to integer from high to low or low to high.
 
 注意不要重复。
 
+### [16.3Sum Closest](https://leetcode.com/problems/3sum-closest/)
+
+给定n个整数，找到其中3个数的和与给定的target最接近。返回这个最接近的和，题目假设只有一个最优的结果。
+
+和之前的`3sum`系列类似。枚举第一个元素，在剩余区间，从两端到中间逼近，记录最接近的值。复杂度O(n^2)。
+
 ### [18.4sum](https://leetcode.com/problems/4sum/)
 
 给定一个包含n个整数的数组和目标target。要求找到一个唯一的四元组(a,b,c,d)，使得a+b+c+d = target。
