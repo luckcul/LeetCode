@@ -22,6 +22,22 @@ It is similar to the last problem.
 
 We can convert roman numeral to integer from high to low or low to high.
 
+### [15.3sum](https://leetcode.com/problems/3sum/)
+
+给定n个整数，求其中3数a,b,c。使得a+b+c = 0。返回虽有不重复的三元组。
+
+先排序，然后枚举第一个元素。在剩余的区间上，从两端向中间逼近。复杂度O(n^2)。
+
+注意不要重复。
+
+### [18.4sum](https://leetcode.com/problems/4sum/)
+
+给定一个包含n个整数的数组和目标target。要求找到一个唯一的四元组(a,b,c,d)，使得a+b+c+d = target。
+
+先排序，枚举前两个元素，然后对于后两个值，从剩余的区间的两端向中间逼近。复杂度O(n^3)。
+
+注意四元组是唯一的，不要出现重复。
+
 ### [191.Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 
 求32-bit integer中写成二进制`1`的个数。从末尾依次找即可，O(log(n)) 解决。
