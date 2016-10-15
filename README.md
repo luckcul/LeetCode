@@ -44,7 +44,7 @@ We can convert roman numeral to integer from high to low or low to high.
 
 注意四元组是唯一的，不要出现重复。
 
-### [Pow(x, n)](https://leetcode.com/problems/powx-n/)
+### [50.Pow(x, n)](https://leetcode.com/problems/powx-n/)
 
 题目思路并不难,进行移位操作，复杂度O(log(n))。但是注意一下，
 
