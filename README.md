@@ -44,6 +44,16 @@ We can convert roman numeral to integer from high to low or low to high.
 
 注意四元组是唯一的，不要出现重复。
 
+### [Pow(x, n)](https://leetcode.com/problems/powx-n/)
+
+题目思路并不难,进行移位操作，复杂度O(log(n))。但是注意一下，
+
+1.n可能是负数。
+
+2.n可能是-2^31.这种情况比较极端，在我们做法中，先进行转化为正数，然后对结果取倒数，再取反。在转化为正数的时候，就有问题，`n = -n`，得到的还是`-2^31`，无效。然后，进行右移的位操作`>>`，当int时负数的时候，右移的时候左面补的是符号位`1`，永远不可能为0，所以TLE。
+
+解决办法就是转化为long long，就避免了这个极端情况出现的问题。
+
 ### [191.Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 
 求32-bit integer中写成二进制`1`的个数。从末尾依次找即可，O(log(n)) 解决。
