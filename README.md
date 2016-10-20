@@ -72,3 +72,10 @@ solution: **result[i] = result[i & (i-1)] + 1.**
 
 A simple problem about string. Just reverse a string.
 
+### [372.Super Pow](https://leetcode.com/problems/super-pow/)
+
+求a^b,不过b可能非常的大，所以它以vector(c++)、list(python)为参数。
+
+原本可以O(log(b))的复杂度解决的，现在由于这种参数形式，我们二进制的思路解法转化为十进制的解法，复杂度也就变成了O(log_10(b))。
+
+如果用C++写，注意取模，不要溢出。
