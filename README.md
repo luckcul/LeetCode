@@ -44,6 +44,16 @@ We can convert roman numeral to integer from high to low or low to high.
 
 注意四元组是唯一的，不要出现重复。
 
+### [29.Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
+
+给定两个整数，求他们两个的整除结果。不能使用乘、除、取模。
+
+解法明确，二分binary search。
+
+要注意几个地方：1）`dividend`和`divisor`可能为负数。2）结果可能溢出32的整型，比如-2^31 / -1 = 2^31
+
+可恶的是，python本来不要注意溢出，也要强行判断是否溢出32位有符号数。
+
 ### [50.Pow(x, n)](https://leetcode.com/problems/powx-n/)
 
 题目思路并不难,进行移位操作，复杂度O(log(n))。但是注意一下:
