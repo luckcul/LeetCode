@@ -35,4 +35,4 @@ class Solution(object):
 
 if __name__ == "__main__":
     s = Solution()
-    print s.divide(-2147483648,-1)
+    print s.divide(-3,2)

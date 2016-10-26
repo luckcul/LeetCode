@@ -54,6 +54,8 @@ We can convert roman numeral to integer from high to low or low to high.
 
 可恶的是，python本来不要注意溢出，也要强行判断是否溢出32位有符号数。
 
+C++最好转化为`long long`来做，因为进行二分的时候可能会相加溢出。
+
 ### [50.Pow(x, n)](https://leetcode.com/problems/powx-n/)
 
 题目思路并不难,进行移位操作，复杂度O(log(n))。但是注意一下:
