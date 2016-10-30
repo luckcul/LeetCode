@@ -56,6 +56,12 @@ We can convert roman numeral to integer from high to low or low to high.
 
 C++最好转化为`long long`来做，因为进行二分的时候可能会相加溢出。
 
+### [*41.First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
+
+输入一串整数，输出一个最小的不在其中出现的正整数。
+
+输入中负数和大于输入长度的整数可以排除掉，不会影响结果。就在剩下的[1,length]中找到第一个没出现的就好。可以把它看成一种特殊的排序--桶排序。通过不断的把一个数字移动到它应该在的位置，检查第一个不在它应有位置的数字。
+
 ### [50.Pow(x, n)](https://leetcode.com/problems/powx-n/)
 
 题目思路并不难,进行移位操作，复杂度O(log(n))。但是注意一下:
@@ -66,6 +72,12 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 解决办法就是转化为long long，就避免了这个极端情况出现的问题。
 
+### [60.Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)
+
+给定n,k。求在1~n的全排列中字典序为k的排列是哪个。
+
+可以通过[康拓展开](https://zh.wikipedia.org/zh/%E5%BA%B7%E6%89%98%E5%B1%95%E5%BC%80)，它是一个双射，由一个排列到其字典顺序的一个双射，也是它的一个哈希函数。
+
 ### [69.Sqrt(x)](https://leetcode.com/problems/sqrtx/)
 
 比较简单，实现`int sqrt(int x)`。
@@ -75,6 +87,18 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 ### [191.Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 
 求32-bit integer中写成二进制`1`的个数。从末尾依次找即可，O(log(n)) 解决。
+
+### [233.Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)
+
+给一个n，求[1,n]中所有数字含有`1`的数量。题目一看，有点数位DP的意思。
+
+把这个问题分解成，求[1,n]中只含有1个`1`的数字的个数、只含有两个`1`的数字的个数，……，只含有len(n)个`1`的数字的个数。
+
+这些子问题，分别用动态规划来解，dp(i,j)表示不达到最大值`n`边界的情况下，在第i位（从高位算起），在状态为j的情况下数字的个数。假设求区间内包含k个`1`的数字个数，j就取得0~k，表示从第i位到最后一位包含`1`的个数为j。状态转移见代码吧，不好描述。
+
+可以用记忆化搜索来实现。如果在边界，就不能用到已有的dp(i,j)的值。如果输入足够大，结果会溢出，但是OJ并没有这样的数据。
+
+好久没写这样的题目，竟然1A，感动。
 
 ### [338. Counting Bits](https://leetcode.com/problems/counting-bits/)
 
