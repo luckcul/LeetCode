@@ -90,9 +90,19 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 由于结果是一个整数，直接二分就好，复杂度O(log(x))。
 
+### [172.Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
+
+给定整数n，问n!末尾有多少个0 。
+
+老问题了，就是看n!中因子5和2的个数，5的个数少于2，所以看5的个数就好了。一个5因子可以产生一个末尾0,25可以产生两个，125产生3个。。。
+
 ### [191.Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 
 求32-bit integer中写成二进制`1`的个数。从末尾依次找即可，O(log(n)) 解决。
+
+### [231.Power of Two](https://leetcode.com/problems/power-of-two/)
+
+判断一个数是否是2的幂。方法很多，随便一种就好。
 
 ### [233.Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)
 
@@ -106,6 +116,12 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 好久没写这样的题目，竟然1A，感动。
 
+### [326.Power of Three](https://leetcode.com/problems/power-of-three/)
+
+不用递归、循环判断一个数n是否是3的幂。
+
+找到一个不超过2^31-1的最大的3^n，如果这个3^n mod n是否为0。
+
 ### [338. Counting Bits](https://leetcode.com/problems/counting-bits/)
 
 It's easy to solve this problem by O(n*log(n)) algorithm. 
@@ -115,6 +131,12 @@ But we can make use of what we have produced already. The time complexity of thi
 For num`i` and `i-1` , it's only different for the low part in their binary format. For example, number 23(10111) and 24(11000), the high part `1`  is same, the another part `0111` and `1000` is different. We can get the result of `11000` by the result of  number `10000` (set the low part to zero).
 
 solution: **result[i] = result[i & (i-1)] + 1.**
+
+### [342.Power of Four](https://leetcode.com/problems/power-of-four/)
+
+判断一个整数n，是否是4的幂。不适用循环和递归。
+
+那就用对数来判断，log4(n)是否是整数，注意浮点数0的判断。
 
 ### [344.Reverse String](https://leetcode.com/problems/reverse-string/)
 
