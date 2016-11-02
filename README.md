@@ -90,6 +90,10 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 由于结果是一个整数，直接二分就好，复杂度O(log(x))。
 
+### [162.Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+
+给定一个数列num[1~n] 假定`num[0] = num[n+1] = -INF`，求peak值的索引，peak值就是大于左右两个相邻的值。由于num[0], num[n+1]都是负无穷大，所以一定优解，要求O(log(n))的复杂度，可以进行二分。当二分到某个值，比较它的左右值，如果是peak，则找到任一解；如果是上升的，继续二分右区间；否则二分左区间。这样可以一定得到任一解。
+
 ### [172.Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
 
 给定整数n，问n!末尾有多少个0 。
@@ -99,6 +103,10 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 ### [191.Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 
 求32-bit integer中写成二进制`1`的个数。从末尾依次找即可，O(log(n)) 解决。
+
+### [200.Number of Islands](https://leetcode.com/problems/number-of-islands/)
+
+输入01矩阵，问有多少块连通。没啥可说的，DFS直接搞。
 
 ### [231.Power of Two](https://leetcode.com/problems/power-of-two/)
 
