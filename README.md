@@ -90,9 +90,39 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 由于结果是一个整数，直接二分就好，复杂度O(log(x))。
 
+### [141.Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+
+对于一个链表，判断是否有环，最好不要用额外的空间。
+
+泪目，当初面过某家的实习，被问到过，本来挺简单，后来问不要用额外的空间，怎么弄。当时有点懵。
+
+设置两个指针，开始都指向头，一个指针一次跳一步，另一个一次跳两步。如果两个指针在不到达末尾之前可以相遇，那么有环。
+
+### [*142.Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+
+和上到题目一样，要求出环的起始点。
+
+在上一题的基础上，一个比较直观的想法是：先求出环的长度k，从链表的头开始向后找，如果这个当前这个节点向后k个节点是自己，这个点就是环的起始点。但是这样复杂度是O(n^2)，写了一下竟然A了，812ms，看了一下有比较快的算法，那么最优的算法估计复杂度还是O(n)。
+
+假设起点是`X`，环的起点是`Y`，上个题目做法中第一次相遇的点是`Z`，`X`到`Y`的距离是a，`Y`到`Z`的距离是b，`Z`到`Y`的距离是c，环的长度为L=b+c。
+
+那么，`2*(a+b) = a+n*L+b, n>=1`，即慢指针走过的距离的2倍等于快指针走过的距离。得到`a+b = n*L, n>=1`。
+
+观察这个式子发现`a = n*L-b = (n-1)*L+c, n>=1`,即a的距离等于c的距离加上n-1倍的环的长度。那么，可以想到，设置两个指针，一个在起点`X`，一个在相遇点`Z`，两个指针每次都走一步，那么现在的相遇点就是环的起点`Y`了。这个算法复杂度O(n)。
+
+### [151.Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
+
+以词为单位翻转字符串。直接做就好喽，具体看代码。
+
 ### [162.Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 
 给定一个数列num[1~n] 假定`num[0] = num[n+1] = -INF`，求peak值的索引，peak值就是大于左右两个相邻的值。由于num[0], num[n+1]都是负无穷大，所以一定优解，要求O(log(n))的复杂度，可以进行二分。当二分到某个值，比较它的左右值，如果是peak，则找到任一解；如果是上升的，继续二分右区间；否则二分左区间。这样可以一定得到任一解。
+
+### [165.Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)
+
+给两个版本号，比较那个版本高。
+
+注意，`0.01 == 0.1`, `0.1.0 == 0.1`。
 
 ### [172.Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
 
