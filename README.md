@@ -90,6 +90,16 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 由于结果是一个整数，直接二分就好，复杂度O(log(x))。
 
+### [88.Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+
+给定两个有序的数列A,B，把两个和并成一个有序的数列，并且存放到A里面。
+
+如果使用额外存储空间的话，很容易。不使用额外存储空间的话，可以倒序添加到A的末尾。
+
+### [100.Same Tree](https://leetcode.com/problems/same-tree/)
+
+判断两个二叉树是否完全一样。递归判断一下就可以了。
+
 ### [141.Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
 对于一个链表，判断是否有环，最好不要用额外的空间。
@@ -153,6 +163,12 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 可以用记忆化搜索来实现。如果在边界，就不能用到已有的dp(i,j)的值。如果输入足够大，结果会溢出，但是OJ并没有这样的数据。
 
 好久没写这样的题目，竟然1A，感动。
+
+### [237.Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+
+删除链表中的一个节点（不是尾节点），不过只给出这个节点的访问。
+
+我们可以把下一个节点的值复制到该节点，然后删除下一个节点。
 
 ### [326.Power of Three](https://leetcode.com/problems/power-of-three/)
 
