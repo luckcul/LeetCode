@@ -148,6 +148,22 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 输入01矩阵，问有多少块连通。没啥可说的，DFS直接搞。
 
+### [224.Basic Calculator](https://leetcode.com/problems/basic-calculator/)
+
+给一个包含非负数、`+`、`-`、`(`、`)`和空格的字符串，求出它的值。
+
+利用栈，依次入栈，遇到`)`的时候，依次出栈并计算，直到遇到`(`，并把计算的值入栈。最后对栈上的内容进行计算。
+
+复杂度O(n)。
+
+### [227.Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
+
+给一个包含非负数、`+`、`-`、`*`、`/`和空格的字符串，要求求出它的值，输入一定是合法的。
+
+不用像224用栈来做了，只需要遇到加减，把之前的值全部处理完，遇到乘除把之前乘除块的值处理完。
+
+O(n)。
+
 ### [231.Power of Two](https://leetcode.com/problems/power-of-two/)
 
 判断一个数是否是2的幂。方法很多，随便一种就好。
