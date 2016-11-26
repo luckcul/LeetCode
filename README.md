@@ -180,11 +180,34 @@ O(n)。
 
 好久没写这样的题目，竟然1A，感动。
 
+### [646.Integer Break](https://leetcode.com/problems/integer-break/)
+
+给一个数n，它可以写成k个数的和(k>1)，现在求这k个数乘积最大是多少。
+
+假设，k是固定的，那么n分成尽可能均匀的k份是最优的，能得到最大的乘积。这时，乘积最大的方案唯一。
+
+题目说n最大58，遍历k的长度就可以，复杂度O(n)。
+
+还可以发现随着k从2开始增大到n，这个最优乘积先增大后减小。所以可以用三分进行找最优解，复杂度为$$O(log_3n)$$。
+
+
 ### [237.Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 
 删除链表中的一个节点（不是尾节点），不过只给出这个节点的访问。
 
 我们可以把下一个节点的值复制到该节点，然后删除下一个节点。
+
+### [282.Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)
+
+给一个只含有数字的字符串和一个目标整数值，可以往数字串里面添加`+`,`-`,`*`,来使得计算值等于目标整数值。
+
+注意不能有前导0.
+
+暴力枚举字符串每个间隔位的符号，+-*或者什么没有，然后计算。然而TLE。
+
+看到有人用搜索，递归来写。
+
+写了一发，就过了。amazing。
 
 ### [326.Power of Three](https://leetcode.com/problems/power-of-three/)
 
@@ -212,11 +235,31 @@ solution: **result[i] = result[i & (i-1)] + 1.**
 
 A simple problem about string. Just reverse a string.
 
+### [345.Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)
+
+给一个字符串，把里面的元音字母在原来的串中倒序。
+
+第一次遍历，取出其中的元音字母，把这些元音字母倒序。第二次遍历，对于依次遇到的元音字母用第一次取出的原因字母替换。
+
+### [350.Intersection of Two Array II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
+
+给两个整数数组，返回在两个中都出现的元素，如果有重复也要返回重复。
+
+分别给两个数组排序，然后对两个数组从小到大依次判断是否重复。复杂度O(n\*log(n) + m\*log(m))。
+
+其实，如果n或者m很大，可以采用O(n*m)的方法。 
+
 ### [367.Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)
 
 判断一个数是否是完全平方数。
 
 和[69.Sqrt(x)](https://leetcode.com/problems/sqrtx/) 类似。二分，复杂度O(log(n))。
+
+### [349.Intersection Of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
+
+给两个整数串，返回其中重复出现的整数，不要求有序，而且返回的整数中必须唯一。
+
+把两个整数串分别放入两个set中，两个set取并。
 
 ### [372.Super Pow](https://leetcode.com/problems/super-pow/)
 
