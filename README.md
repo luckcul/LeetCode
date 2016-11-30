@@ -156,6 +156,20 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 复杂度O(n)。
 
+### [232.Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+
+使用Stack中的操作，来实现Queue。
+
+和225类似，对于pop()和peek()需要借助两个queue倒腾一下。
+
+### [225.Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
+
+让你使用queue的相关操作，实现stack。
+
+push、empty没啥可说的。pop()操作应该在queue上去队前的元素放到队后，最后一个元素只取出来。top()类似。
+
+python中的queue使用`from collections import deque`。
+
 ### [227.Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
 
 给一个包含非负数、`+`、`-`、`*`、`/`和空格的字符串，要求求出它的值，输入一定是合法的。
@@ -180,22 +194,18 @@ O(n)。
 
 好久没写这样的题目，竟然1A，感动。
 
-### [646.Integer Break](https://leetcode.com/problems/integer-break/)
-
-给一个数n，它可以写成k个数的和(k>1)，现在求这k个数乘积最大是多少。
-
-假设，k是固定的，那么n分成尽可能均匀的k份是最优的，能得到最大的乘积。这时，乘积最大的方案唯一。
-
-题目说n最大58，遍历k的长度就可以，复杂度O(n)。
-
-还可以发现随着k从2开始增大到n，这个最优乘积先增大后减小。所以可以用三分进行找最优解，复杂度为$$O(log_3n)$$。
-
 
 ### [237.Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 
 删除链表中的一个节点（不是尾节点），不过只给出这个节点的访问。
 
 我们可以把下一个节点的值复制到该节点，然后删除下一个节点。
+
+### [257.Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
+
+输出一个二叉树从根到叶子的所有路径。
+
+直接递归搜索一下就好了。
 
 ### [282.Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)
 
@@ -209,11 +219,27 @@ O(n)。
 
 写了一发，就过了。amazing。
 
+### [289.Summary Ranges](https://leetcode.com/problems/summary-ranges/)
+
+给一个有序的整数串，要求返回它的各个整数区间，单个值返回自己，不返回区间。例如`[0,1,2,4,5,7]`,返回 `["0->2","4->5","7"].`
+
+依次判断一下就好了，复杂度O(n).
+
 ### [326.Power of Three](https://leetcode.com/problems/power-of-three/)
 
 不用递归、循环判断一个数n是否是3的幂。
 
 找到一个不超过2^31-1的最大的3^n，如果这个3^n mod n是否为0。
+
+### [335.Self Crossing](https://leetcode.com/problems/self-crossing/)
+
+给一个整数串，依次代表一个点分别向上、向左、向下、向右……走的距离。问是否会出现交叉。
+
+就是依次进行顺时针移动。可以发现，每个方向的时候，只有3中不同的相交情况。
+
+1)第j条线撞到第j-3条线 。 2)第j条线追尾第j-4条线。 3)第j条线撞到第j-5条线。
+
+细心判断下就好。
 
 ### [338. Counting Bits](https://leetcode.com/problems/counting-bits/)
 
@@ -230,6 +256,16 @@ solution: **result[i] = result[i & (i-1)] + 1.**
 判断一个整数n，是否是4的幂。不适用循环和递归。
 
 那就用对数来判断，log4(n)是否是整数，注意浮点数0的判断。
+
+### [343.Integer Break](https://leetcode.com/problems/integer-break/)
+
+给一个数n，它可以写成k个数的和(k>1)，现在求这k个数乘积最大是多少。
+
+假设，k是固定的，那么n分成尽可能均匀的k份是最优的，能得到最大的乘积。这时，乘积最大的方案唯一。
+
+题目说n最大58，遍历k的长度就可以，复杂度O(n)。
+
+还可以发现随着k从2开始增大到n，这个最优乘积先增大后减小。所以可以用三分进行找最优解，复杂度为$$O(log_3n)$$。
 
 ### [344.Reverse String](https://leetcode.com/problems/reverse-string/)
 
