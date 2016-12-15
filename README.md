@@ -90,6 +90,16 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 由于结果是一个整数，直接二分就好，复杂度O(log(x))。
 
+### [84.Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)*
+
+直方图里面找最大的矩形块。比较直接的想法是，枚举每一小块，以它的高度为矩形的宽度，长度需要向左向右枚举，直接枚举的话，算法总复杂度是O(n^2)。可以设置l[],r[]，表示它向左可以多少，向右可以多少，减少重复计算。复杂度接近O(n)。
+
+### [85.Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)*
+
+给一个01矩阵，求里面只包含`1`的最大矩形块面积。
+
+如果和上面这道题目结合，就没什么难度了。外面多循环一次。算法复杂度接近O(n^2)。
+
 ### [88.Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 
 给定两个有序的数列A,B，把两个和并成一个有序的数列，并且存放到A里面。
@@ -99,6 +109,12 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 ### [100.Same Tree](https://leetcode.com/problems/same-tree/)
 
 判断两个二叉树是否完全一样。递归判断一下就可以了。
+
+### [135.Candy](https://leetcode.com/problems/candy/)
+
+给N个小孩分糖吃，每个小孩有一个优先级。满足，每个小孩至少一个糖，如果这个小孩比旁边小孩的优先级高，那么他的糖的数量也要高。求最少给他们分多少个糖。（好抠）
+
+考虑，如果是优先级升序，那么分的糖的数量也升序；如果优先级降序，那么分的糖是降序，不能出现1以下的数量。开始糖数，从左到右全部为1，如果优先级变高，那么比他左面人的糖数加一；同样从右向左搞一遍。然后每个人的糖数，是这两次处理的max。O(n)。
 
 ### [141.Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
@@ -156,12 +172,6 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 复杂度O(n)。
 
-### [232.Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
-
-使用Stack中的操作，来实现Queue。
-
-和225类似，对于pop()和peek()需要借助两个queue倒腾一下。
-
 ### [225.Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
 
 让你使用queue的相关操作，实现stack。
@@ -182,6 +192,12 @@ O(n)。
 
 判断一个数是否是2的幂。方法很多，随便一种就好。
 
+### [232.Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+
+使用Stack中的操作，来实现Queue。
+
+和225类似，对于pop()和peek()需要借助两个queue倒腾一下。
+
 ### [233.Number of Digit One](https://leetcode.com/problems/number-of-digit-one/)
 
 给一个n，求[1,n]中所有数字含有`1`的数量。题目一看，有点数位DP的意思。
@@ -194,12 +210,24 @@ O(n)。
 
 好久没写这样的题目，竟然1A，感动。
 
+### [235.Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+
+在一个二叉查找树上找某两个节点的LCA，直接按照大小直接搜一下就好。复杂度大约是树的深度。
+
+### [236.Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+
+在一个二叉树上找某两个节点的LCA。可以搜一遍，假设n个节点，复杂度O(n)。
+
 
 ### [237.Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 
 删除链表中的一个节点（不是尾节点），不过只给出这个节点的访问。
 
 我们可以把下一个节点的值复制到该节点，然后删除下一个节点。
+
+### [242.Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+
+判断两个字符串是否包含的字母只是顺序不同。直接判断就好。
 
 ### [257.Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
 
@@ -304,3 +332,7 @@ A simple problem about string. Just reverse a string.
 原本可以O(log(b))的复杂度解决的，现在由于这种参数形式，我们二进制的思路解法转化为十进制的解法，复杂度也就变成了O(log_10(b))。
 
 如果用C++写，注意取模，不要溢出。
+
+### [389.Find the Difference](https://leetcode.com/problems/find-the-difference/)
+
+找一个串比另一个串多出来的字母。随便做。
