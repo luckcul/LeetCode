@@ -56,6 +56,10 @@ We can convert roman numeral to integer from high to low or low to high.
 
 C++最好转化为`long long`来做，因为进行二分的时候可能会相加溢出。
 
+### [36.Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+
+判断数独是否是一个有效的（已知的是否有效）。判断3个就好。
+
 ### [*41.First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 
 输入一串整数，输出一个最小的不在其中出现的正整数。
@@ -109,6 +113,10 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 ### [100.Same Tree](https://leetcode.com/problems/same-tree/)
 
 判断两个二叉树是否完全一样。递归判断一下就可以了。
+
+### [110.Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+
+判断一个二叉树是否是平衡二叉树。由底向上判断一下树的深度差小于1就好。
 
 ### [135.Candy](https://leetcode.com/problems/candy/)
 
@@ -214,7 +222,7 @@ O(n)。
 
 在一个二叉查找树上找某两个节点的LCA，直接按照大小直接搜一下就好。复杂度大约是树的深度。
 
-### [236.Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+### [236.Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) *
 
 在一个二叉树上找某两个节点的LCA。可以搜一遍，假设n个节点，复杂度O(n)。
 
@@ -253,13 +261,13 @@ O(n)。
 
 依次判断一下就好了，复杂度O(n).
 
-### [326.Power of Three](https://leetcode.com/problems/power-of-three/)
+### [326.Power of Three](https://leetcode.com/problems/power-of-three/) *
 
 不用递归、循环判断一个数n是否是3的幂。
 
 找到一个不超过2^31-1的最大的3^n，如果这个3^n mod n是否为0。
 
-### [335.Self Crossing](https://leetcode.com/problems/self-crossing/)
+### [335.Self Crossing](https://leetcode.com/problems/self-crossing/) *
 
 给一个整数串，依次代表一个点分别向上、向左、向下、向右……走的距离。问是否会出现交叉。
 
@@ -336,3 +344,7 @@ A simple problem about string. Just reverse a string.
 ### [389.Find the Difference](https://leetcode.com/problems/find-the-difference/)
 
 找一个串比另一个串多出来的字母。随便做。
+
+### [441.Arranging Coins](https://leetcode.com/problems/arranging-coins/)
+
+O(1)就可以。
