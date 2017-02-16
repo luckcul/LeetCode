@@ -44,6 +44,12 @@ We can convert roman numeral to integer from high to low or low to high.
 
 注意四元组是唯一的，不要出现重复。
 
+### [28.Implement strStr() #](https://leetcode.com/problems/implement-strstr/)
+
+实现`strStr()`功能，返回一个串在另一个串第一次出现的位置。
+
+笨方法，复杂度O(n*m)。KMP待补。
+
 ### [29.Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
 
 给定两个整数，求他们两个的整除结果。不能使用乘、除、取模。
@@ -56,15 +62,51 @@ We can convert roman numeral to integer from high to low or low to high.
 
 C++最好转化为`long long`来做，因为进行二分的时候可能会相加溢出。
 
+### [31.Next Permutation](https://leetcode.com/problems/next-permutation/)
+
+找到一个排列的字典序下的下一个排列。如果已经是字典序上的最后一个排列，返回字典序最小的排列。
+
+不用额外的空间。因为字典序，要从后往前考虑。从最后一位往前看，如果都是递增的，说明这一块是字典序较大的，还要往前找，找到一个不递增的，就是我们寻找next permutation的机会。
+
+首先，从最后往前寻找，找到第一个递减的。例如，`51342`第一个递减的就是`4->3`。
+
+然后，从这个递减的位置到最后一位中寻找到比递减位置数字大的最小的数字，和递减的位置进行交换。例如，`51342`递减的位置是第三位，数字`3`，后面数字`42`中比它大的最小的数字是`4`，进行交换，得到`51432`。
+
+最后，对递减位置后面部分进行排序。例如，将上一步得到的`51432`，第三位后面的进行排序得到`23`。则结果为`51423`。
+
+如果第一步找不到递减，则把这个排列进行排序。
+
 ### [36.Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
 
 判断数独是否是一个有效的（已知的是否有效）。判断3个就好。
+
+### [37.Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+
+让你补全一个数独，仅有一个解。
+
+搜索，每一个空位的确定，影响到3个方向。我写的时候，找到一个解就直接返回，不过在中间少一个这个的判断，调试好久。
 
 ### [*41.First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 
 输入一串整数，输出一个最小的不在其中出现的正整数。
 
 输入中负数和大于输入长度的整数可以排除掉，不会影响结果。就在剩下的[1,length]中找到第一个没出现的就好。可以把它看成一种特殊的排序--桶排序。通过不断的把一个数字移动到它应该在的位置，检查第一个不在它应有位置的数字。
+
+### [46.Permutations*](https://leetcode.com/problems/permutations/)
+
+生成全排列，O(n!)。
+
+递归来实现，第一位和他后面的分别进行交换，然后第二位和他后面的分别交换……这样依次得到的并不是字典序的。
+
+### [47.Permutations II](https://leetcode.com/problems/permutations-ii/)
+
+和上题类似，不过要求排列不重复。
+
+通过例子，观察可知，如果重复出现，一定是在上题的步骤中，某一位和他后面的进行交换后，这位出现重复的数字。判断一下就解决了。
+
+### [48.Rotate Image](https://leetcode.com/problems/rotate-image/)
+
+给一个n*n的matrix，把它顺时针转一下。不借助额外的空间，找一下坐标对应就好。
 
 ### [49.Group Anagrams](https://leetcode.com/problems/anagrams/)
 
@@ -94,6 +136,10 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 由于结果是一个整数，直接二分就好，复杂度O(log(x))。
 
+### [77.Combinations](https://leetcode.com/problems/combinations/)
+
+给n,k。从1...n里面取出k个，把不同的组合全部输出（c(k,n)个)。DFS一下就可以。
+
 ### [84.Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)*
 
 直方图里面找最大的矩形块。比较直接的想法是，枚举每一小块，以它的高度为矩形的宽度，长度需要向左向右枚举，直接枚举的话，算法总复杂度是O(n^2)。可以设置l[],r[]，表示它向左可以多少，向右可以多少，减少重复计算。复杂度接近O(n)。
@@ -117,6 +163,14 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 ### [110.Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 
 判断一个二叉树是否是平衡二叉树。由底向上判断一下树的深度差小于1就好。
+
+### [112.Path Sum I](https://leetcode.com/problems/path-sum/)
+
+判断存在一个二叉树从根到底的和为给定值，遍历一下树就可以。
+
+### [113.Path Sum II](https://leetcode.com/problems/path-sum-ii/)
+
+在上一个的题意上，给出这个路径，思路一样。
 
 ### [135.Candy](https://leetcode.com/problems/candy/)
 
@@ -348,3 +402,9 @@ A simple problem about string. Just reverse a string.
 ### [441.Arranging Coins](https://leetcode.com/problems/arranging-coins/)
 
 O(1)就可以。
+
+### [474.Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
+
+给出许多只含有`0`,`1`的串，求当0和1的个数分别为m,n的情况下，能组成多少个串。
+
+简单背包，DP。只是重量变成了二维，价值为1。
