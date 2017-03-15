@@ -44,6 +44,19 @@ We can convert roman numeral to integer from high to low or low to high.
 
 注意四元组是唯一的，不要出现重复。
 
+### [21.Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/?tab=Description)
+
+把两个有序链表，合成一个有序链表。 更改指向就好了。
+
+为了写法简单，可以初始化一个头指针，处理完返回它的.next
+
+### [23.Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+
+把k个有序的链表合并为一个有序链表。暴力遍历不可行。有两种方法：
+
+* 每次从k个链表头中取值最小的那个，这个过程可以建立一个堆来进行优化，每取一次复杂度O(log(k))。总复杂度O(m*log(k)),m是k个链表所有的节点数
+* 采用merge sort的思想，分治来解决。每次合并两个有序链表。复杂度同上。
+
 ### [28.Implement strStr() #](https://leetcode.com/problems/implement-strstr/)
 
 实现`strStr()`功能，返回一个串在另一个串第一次出现的位置。
@@ -85,6 +98,18 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 让你补全一个数独，仅有一个解。
 
 搜索，每一个空位的确定，影响到3个方向。我写的时候，找到一个解就直接返回，不过在中间少一个这个的判断，调试好久。
+
+### [39.Combination Sum](https://leetcode.com/problems/combination-sum/)
+
+给一个正整数的集合c，和目标值T。从c中取出数字，每个数字可以用多次，数字和为T,求这些组合。
+
+直接搜索。
+
+### [40.Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+
+和上一个类似，不过集合中每一个数字只能用一次。
+
+还是搜索，只是每次不重复选择。
 
 ### [*41.First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 
@@ -135,6 +160,12 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 比较简单，实现`int sqrt(int x)`。
 
 由于结果是一个整数，直接二分就好，复杂度O(log(x))。
+
+### [75.Sort Colors](https://leetcode.com/problems/sort-colors/)
+
+不要用STL中的sort，把含有`0 1 2`的串排序。
+
+先统计一下分别的数量，然后写入。
 
 ### [77.Combinations](https://leetcode.com/problems/combinations/)
 
@@ -198,6 +229,12 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 观察这个式子发现`a = n*L-b = (n-1)*L+c, n>=1`,即a的距离等于c的距离加上n-1倍的环的长度。那么，可以想到，设置两个指针，一个在起点`X`，一个在相遇点`Z`，两个指针每次都走一步，那么现在的相遇点就是环的起点`Y`了。这个算法复杂度O(n)。
 
+### [148.Sort List*](https://leetcode.com/problems/sort-list/?tab=Description)
+
+对于一个无序的链表，在O(log(n))的复杂度内对其排序，要求常数的空间复杂度。
+
+采用归并排序的思想，分治来解决。(可以使用快慢指针来找出中间位置)
+
 ### [151.Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
 
 以词为单位翻转字符串。直接做就好喽，具体看代码。
@@ -225,6 +262,10 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 ### [200.Number of Islands](https://leetcode.com/problems/number-of-islands/)
 
 输入01矩阵，问有多少块连通。没啥可说的，DFS直接搞。
+
+### [216.Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
+
+和39,40类似。要求从[1,9]之间找出不重复的k个数之和等于n。还是直接搜索DFS
 
 ### [224.Basic Calculator](https://leetcode.com/problems/basic-calculator/)
 
@@ -380,6 +421,16 @@ A simple problem about string. Just reverse a string.
 判断一个数是否是完全平方数。
 
 和[69.Sqrt(x)](https://leetcode.com/problems/sqrtx/) 类似。二分，复杂度O(log(n))。
+
+### [377.Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/?tab=Description)
+
+给一个正整数集合，eg，`nums = [1, 2, 3]`，给一个目标值,eg,`target = 4`。
+
+取nums里面一些数，其和为target。可以重复取，顺序不同算作不同的序列。求这些不同序列的个数。
+
+动态规划，dp[i]表示用nums里面的数字，组成i大小的序列数。for num in nums : dp[i] =dp[i] + dp[i-num] 
+
+如果按照背包的那种状态转移方式，得到的是不考虑次序的序列个数。
 
 ### [349.Intersection Of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
 
