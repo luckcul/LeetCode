@@ -4,11 +4,19 @@
 
 ## LeetCode Algorithms
 
+### EASY:
+
+[62.Unique Paths](https://leetcode.com/problems/unique-paths) 	[63.Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) 	[78.Subsets](https://leetcode.com/problems/subsets) 	[94.Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)  	[209.Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) 	[229.Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) 		[438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) 	[374.Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) 	[389.Find the Difference](https://leetcode.com/problems/find-the-difference/)	[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/)		[567.Permutation in String](https://leetcode.com/problems/permutation-in-string)
+
 ### [1.Two Sum](https://leetcode.com/problems/two-sum/)
 
 求数列中两个数加起来等于目标值。返回这两个值的索引下标。
 
 C++中用map。O(n*log(n))的复杂度。
+
+### [3.Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)
+
+在一个给定的字符串中，寻找一个没有重复元素的最长子串。Two Point问题，枚举左区间，维护右区间。
 
 ### [12.Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
 
@@ -74,6 +82,12 @@ We can convert roman numeral to integer from high to low or low to high.
 可恶的是，python本来不要注意溢出，也要强行判断是否溢出32位有符号数。
 
 C++最好转化为`long long`来做，因为进行二分的时候可能会相加溢出。
+
+### [30.Substring with Concatenation of All Words*](https://leetcode.com/problems/substring-with-concatenation-of-all-words)
+
+给一个字符串S，还有一个字符串集合T，其中所有字符串长度一样。要求找出所有S中的子串，满足这个子串包含所有T中字符串的一种排列。
+
+可以利用字符串集合中长度一致，每次从某个起点出发，以字符串长度为一节。然后类似之前的Two Point问题，遍历左区间，维护右区间。
 
 ### [31.Next Permutation](https://leetcode.com/problems/next-permutation/)
 
@@ -165,7 +179,14 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 不要用STL中的sort，把含有`0 1 2`的串排序。
 
-先统计一下分别的数量，然后写入。
+* 1, 先统计一下分别的数量，然后写入。
+* 2,荷兰国旗问题，通过设置三个指针`low` `current` `high`，进行排序，可以根据某个中间值，分成低中高三段。
+
+### [76.Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)
+
+给出两个字符串S、T，求在S中一个最小长度的子串，要求这个子串包含所有T中的字符。
+
+设置一个区间[l, r]，每次r向右移动，直到当前区间符合要求，然后l向右移动，直到再移动就不符合要求。现在是一个符合要求的[l,r]区间。然后l向右移动一下，重复上面的步骤直到结束。
 
 ### [77.Combinations](https://leetcode.com/problems/combinations/)
 
@@ -186,6 +207,12 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 给定两个有序的数列A,B，把两个和并成一个有序的数列，并且存放到A里面。
 
 如果使用额外存储空间的话，很容易。不使用额外存储空间的话，可以倒序添加到A的末尾。
+
+### [90.Subset II](https://leetcode.com/problems/subsets-ii/)
+
+一个有重复元素的集合。求它所有不重复的幂集。
+
+注意相同元素的处理，这部分是无序处理的。
 
 ### [100.Same Tree](https://leetcode.com/problems/same-tree/)
 
@@ -229,6 +256,10 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 观察这个式子发现`a = n*L-b = (n-1)*L+c, n>=1`,即a的距离等于c的距离加上n-1倍的环的长度。那么，可以想到，设置两个指针，一个在起点`X`，一个在相遇点`Z`，两个指针每次都走一步，那么现在的相遇点就是环的起点`Y`了。这个算法复杂度O(n)。
 
+### [147.Insection Sort List](https://leetcode.com/problems/insertion-sort-list/)
+
+对链表插入排序。。注意转换思维，不要拿数组那一套直接用。
+
 ### [148.Sort List*](https://leetcode.com/problems/sort-list/?tab=Description)
 
 对于一个无序的链表，在O(log(n))的复杂度内对其排序，要求常数的空间复杂度。
@@ -254,6 +285,10 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 给定整数n，问n!末尾有多少个0 。
 
 老问题了，就是看n!中因子5和2的个数，5的个数少于2，所以看5的个数就好了。一个5因子可以产生一个末尾0,25可以产生两个，125产生3个。。。
+
+### [173.Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator)
+
+实现BST的hasNext()和next()函数，就是保存状态的二叉树的中序遍历。
 
 ### [191.Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 
@@ -356,6 +391,20 @@ O(n)。
 
 依次判断一下就好了，复杂度O(n).
 
+### [319.Bulb Switcher](https://leetcode.com/problems/bulb-switcher)
+
+一串灯泡，开始全关，第一次按1的倍数的灯泡的开关，第二次按2的倍数的灯泡的开关……直到第n次。求最后多少亮着。
+
+可以发现，如果一个灯泡是亮的，它被按了奇数次。而且这个灯泡的次序是一个平方数。
+
+也就是求解[1,n]多少个平方数。sqrt(n)个平方数。O(1)。
+
+### [* 324.Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii)
+
+给定一个无序数组，要求把它排列成数字一大一小，摆动的样子。
+
+O(n)时间复杂度，O(1)额外空间。 首先通过O(n)找出median，根据中值，把他们分成3部分，大于median的，等于median的和小于median的。然后把它们错位组织，例如`5442` -> `4524`。
+
 ### [326.Power of Three](https://leetcode.com/problems/power-of-three/) *
 
 不用递归、循环判断一个数n是否是3的幂。
@@ -422,6 +471,12 @@ A simple problem about string. Just reverse a string.
 
 和[69.Sqrt(x)](https://leetcode.com/problems/sqrtx/) 类似。二分，复杂度O(log(n))。
 
+### [375.Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)
+
+在区间[1,n]中给定某个数字，你可以进行猜是哪个数字。每次告诉你，你猜的数字是等于/大于/小于目标数字。每次猜测的花费是你猜的数字的值。为了保证无论给定的目标数字是什么，你都有足够的费用去猜中，这个费用最少是多少。
+
+开始还想着O(log(n))。没有数据规模只能瞎想。最后只能想到O(n^2)的解法。区间dp，dp(i,j)表示查找区间[i,j]之间任何数字的最少费用。
+
 ### [377.Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/?tab=Description)
 
 给一个正整数集合，eg，`nums = [1, 2, 3]`，给一个目标值,eg,`target = 4`。
@@ -446,16 +501,20 @@ A simple problem about string. Just reverse a string.
 
 如果用C++写，注意取模，不要溢出。
 
-### [389.Find the Difference](https://leetcode.com/problems/find-the-difference/)
+### [464.Can I Win*](https://leetcode.com/problems/can-i-win)
 
-找一个串比另一个串多出来的字母。随便做。
+在整数1~n中，两个玩家依次不放回的取一个数字，玩家的得分为取出数字的和，得分先打到预定值x的获胜。问先手玩家能否获胜。
 
-### [441.Arranging Coins](https://leetcode.com/problems/arranging-coins/)
-
-O(1)就可以。
+博弈，用Minimax算法思想，要注意记忆化搜索，复杂度O(2^n)。如果不记忆化，复杂度O(n!)。
 
 ### [474.Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
 
 给出许多只含有`0`,`1`的串，求当0和1的个数分别为m,n的情况下，能组成多少个串。
 
 简单背包，DP。只是重量变成了二维，价值为1。
+
+### [486.Predict the Winner*](https://leetcode.com/problems/predict-the-winner)
+
+一些非负整数，两个人博弈，轮流从这些数的两端取出一个数，最后谁的数字和大，谁赢。判断先手是否能赢。
+
+可以直接进行搜索。其实，这是这种博弈可以用[Minimax算法](https://zh.wikipedia.org/wiki/%E6%9E%81%E5%B0%8F%E5%8C%96%E6%9E%81%E5%A4%A7%E7%AE%97%E6%B3%95) ，每个节点设置启发值，当前所选数字减去剩余区间启发值，叶子节点启发值就是该数字大小。
