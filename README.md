@@ -6,7 +6,19 @@
 
 ### EASY:
 
-[62.Unique Paths](https://leetcode.com/problems/unique-paths) 	[63.Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) 	[78.Subsets](https://leetcode.com/problems/subsets) 	[94.Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)  	[209.Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) 	[229.Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) 		[438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) 	[374.Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) 	[389.Find the Difference](https://leetcode.com/problems/find-the-difference/)	[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/)		[567.Permutation in String](https://leetcode.com/problems/permutation-in-string)
+[7.Reverse Integer](https://leetcode.com/problems/reverse-integer/)    [9.Palindrome Number](https://leetcode.com/problems/palindrome-number/)    [35.Search Insert Position](https://leetcode.com/problems/search-insert-position) 　　[58.Length of Last Word](https://leetcode.com/problems/length-of-last-word)    [62.Unique Paths](https://leetcode.com/problems/unique-paths) 	[63.Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     [67.Add Binary](https://leetcode.com/problems/add-binary)     [78.Subsets](https://leetcode.com/problems/subsets) 	[94.Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)  	[136.Single Number](https://leetcode.com/problems/single-number) 	[209.Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) 	[229.Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) 	[268.Missing Number](https://leetcode.com/problems/missing-number/) 		[278.First Bad Version](https://leetcode.com/problems/first-bad-version) 		[438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) 	[374.Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) 	[389.Find the Difference](https://leetcode.com/problems/find-the-difference/)	[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/)		[498.Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)     [507.Perfect Number](https://leetcode.com/problems/perfect-number/)     [567.Permutation in String](https://leetcode.com/problems/permutation-in-string)
+
+### EASY 找规律
+
+[396.Rotate Function](https://leetcode.com/problems/rotate-function) 	
+
+### EASY 模拟
+
+[393.UTF-8 Validation](https://leetcode.com/problems/utf-8-validation)
+
+### EASY 链表
+
+[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) 
 
 ### [1.Two Sum](https://leetcode.com/problems/two-sum/)
 
@@ -103,6 +115,16 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 如果第一步找不到递减，则把这个排列进行排序。
 
+### [33.Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+
+把一个有序的数组错位了一下，给定一个数找出其下标。肯定是O(log(n))，可以通过两次二分，第一次确定这个截断位置，第二次对这两段有序数组分别二分。
+
+还有一种写法就是在原有普通二分的基础上进行修改。
+
+### [34.Search for a Range](https://leetcode.com/problems/search-for-a-range)
+
+利用二分，在一个有序数组里面找到目标值的区间。
+
 ### [36.Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
 
 判断数独是否是一个有效的（已知的是否有效）。判断3个就好。
@@ -163,6 +185,12 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 解决办法就是转化为long long，就避免了这个极端情况出现的问题。
 
+### [51.N-Queens](https://leetcode.com/problems/n-queens/)
+
+经典递归回溯问题。在n*n棋盘中，放置n个棋子，每两个不同行不同列，不同两个方向的斜线。
+
+可以简单的搜索下每次不和前面的冲突。比较高效的方式是使用位运算压缩一下到每行的不可达的位置。
+
 ### [60.Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)
 
 给定n,k。求在1~n的全排列中字典序为k的排列是哪个。
@@ -191,6 +219,10 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 ### [77.Combinations](https://leetcode.com/problems/combinations/)
 
 给n,k。从1...n里面取出k个，把不同的组合全部输出（c(k,n)个)。DFS一下就可以。
+
+### [81.Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+
+和33题一样，区别是可能有重复元素。开始一直在想O(log(n))的解法。无果，然后发现只有一种平均O(log(n))，最坏O(n)的方法。
 
 ### [84.Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)*
 
@@ -229,6 +261,12 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 ### [113.Path Sum II](https://leetcode.com/problems/path-sum-ii/)
 
 在上一个的题意上，给出这个路径，思路一样。
+
+### [134.Gas Station](https://leetcode.com/problems/gas-station/)
+
+环形一共n个加油站，每个提供gas[i]油，每段路消耗cost[i]个。求是否可以从某个点出发绕一圈，如果可以输出可以的唯一起点。
+
+发现，假设从某一个起点出发，到达最后一个点，如果结果为负数，则不可能。如果不为负数，那么累加结果最小的点的下一个点为最优的起点。
 
 ### [135.Candy](https://leetcode.com/problems/candy/)
 
@@ -301,6 +339,12 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 ### [216.Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
 
 和39,40类似。要求从[1,9]之间找出不重复的k个数之和等于n。还是直接搜索DFS
+
+### [215.Kth Largest Element in an Array *](https://leetcode.com/problems/kth-largest-element-in-an-array)
+
+在一个无序的数组里面找到第k大的数字，也就是c++，STL里面`nth_element()`的功能。 
+
+可以借助快排中partition，每次随机挑选一个值，把他放到应该在的位置，左面都比他小，右面都比他大。然后看k-th在他左面还是右面，继续进行partation.
 
 ### [224.Basic Calculator](https://leetcode.com/problems/basic-calculator/)
 
@@ -384,6 +428,14 @@ O(n)。
 看到有人用搜索，递归来写。
 
 写了一发，就过了。amazing。
+
+### [287.Find the Duplicate Number*](https://leetcode.com/problems/find-the-duplicate-number)
+
+现在有n+1个整数，他们在[1,n]区间内，其中只有一个数字出现里多次。求这个数字。
+
+可以二分，二分目标值，每次统计比它小的个数。O(n*log(n))
+
+可以类似[142.Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) ,肯定有环，找出环的入口位置，就是结果。O(n)。
 
 ### [289.Summary Ranges](https://leetcode.com/problems/summary-ranges/)
 

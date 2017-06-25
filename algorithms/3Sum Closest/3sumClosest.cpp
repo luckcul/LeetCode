@@ -10,8 +10,8 @@
 #include <set>
 using namespace std; 
 //typedef __int64 LL; 
+const int INF = 1000000000;
 class Solution {
-	const int INF = 1000000000;
 public:
     int threeSumClosest(vector<int>& nums, int target) {
         int ans, absAns = INF;

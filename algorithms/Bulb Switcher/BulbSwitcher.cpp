@@ -27,9 +27,9 @@ public:
 };
 
 int main() {
-#ifndef ONLINE_JUDGE
-	freopen("in.txt", "r", stdin);
-#endif // ONLINE_JUDGE
+// #ifndef ONLINE_JUDGE
+// 	freopen("in.txt", "r", stdin);
+// #endif // ONLINE_JUDGE
 	Solution x = Solution();
 	cout<<x.bulbSwitch(123456);
 
