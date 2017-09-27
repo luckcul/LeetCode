@@ -1,8 +1,8 @@
 /* ***********************************************
  	Author        : luckcul
  	Mail          : tyfdream@gmail.com
- 	Created Time  : 2017-06-30 09:35:23
- 	Problem       : Ugly Number II
+ 	Created Time  : 2017-06-26 08:22:15
+ 	Problem       : Reverse Bits
 ************************************************ */
 #include <cstdio>
 #include <cstring>
@@ -20,29 +20,22 @@ using namespace std;
 
 class Solution {
 public:
-    int nthUglyNumber(int n) {
-    	int factors[] = {2, 3, 5};
-    	set<int> S;
-    	S.insert(1);
-    	for(int i = 0 ; i < n-1; i ++) {
-    		set<int>::iterator it = S.begin();
-    		for(int j = 0; j < 3; j ++) {
-    			if((*it) > ((1<<31) - 1) / factors[j]) continue;
-    			S.insert(factors[j] * (*it));
-    		}
-    		S.erase(it);
-    	}
-    	return *(S.begin());
+    uint32_t reverseBits(uint32_t n) {
+    	uint32_t ret = 0;
+        for(int i = 0; i < 32; i++) {
+        	ret <<= 1;
+        	ret |= (n & 1);
+        	n >>= 1;
+        }
+        return ret;
     }
 };
-
 
 int main() {
 #ifndef ONLINE_JUDGE
 	freopen("in.txt", "r", stdin); 
 #endif // ONLINE_JUDGE
-	Solution x = Solution();
-	cout<<x.nthUglyNumber(1407);
+	
 	
 	return 0; 
 }

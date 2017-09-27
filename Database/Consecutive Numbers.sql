@@ -1,0 +1,1 @@
+select distinct L1.Num as ConsecutiveNums from Logs L1 inner join Logs L2 inner join  Logs L3 on L1.Num = L2.Num and L2.Num = L3.Num and L1.Id = L2.Id-1 and L2.Id = L3.Id-1;

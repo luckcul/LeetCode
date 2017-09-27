@@ -1,8 +1,8 @@
 /* ***********************************************
  	Author        : luckcul
  	Mail          : tyfdream@gmail.com
- 	Created Time  : 2017-06-30 09:35:23
- 	Problem       : Ugly Number II
+ 	Created Time  : 2017-06-28 09:20:59
+ 	Problem       : Gray Code
 ************************************************ */
 #include <cstdio>
 #include <cstring>
@@ -20,29 +20,26 @@ using namespace std;
 
 class Solution {
 public:
-    int nthUglyNumber(int n) {
-    	int factors[] = {2, 3, 5};
-    	set<int> S;
-    	S.insert(1);
-    	for(int i = 0 ; i < n-1; i ++) {
-    		set<int>::iterator it = S.begin();
-    		for(int j = 0; j < 3; j ++) {
-    			if((*it) > ((1<<31) - 1) / factors[j]) continue;
-    			S.insert(factors[j] * (*it));
-    		}
-    		S.erase(it);
-    	}
-    	return *(S.begin());
+    vector<int> grayCode(int n) {
+        vector<int> ret;
+        ret.push_back(0);
+        for(int i = 0; i < n; i++) {
+        	int size = ret.size();
+        	for(int j = size-1; j >= 0; j--) {
+        		ret.push_back((1<<(i)) | ret[j]);
+        	}
+        }
+        return ret;
     }
 };
-
 
 int main() {
 #ifndef ONLINE_JUDGE
 	freopen("in.txt", "r", stdin); 
 #endif // ONLINE_JUDGE
 	Solution x = Solution();
-	cout<<x.nthUglyNumber(1407);
+	vector<int> v = x.grayCode(3);
+	for(int i = 0; i < v.size(); i++) cout<<v[i]<<" ";
 	
 	return 0; 
 }

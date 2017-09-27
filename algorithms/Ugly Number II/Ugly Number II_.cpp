@@ -1,7 +1,7 @@
 /* ***********************************************
  	Author        : luckcul
  	Mail          : tyfdream@gmail.com
- 	Created Time  : 2017-06-30 09:35:23
+ 	Created Time  : 2017-06-30 10:27:33
  	Problem       : Ugly Number II
 ************************************************ */
 #include <cstdio>
@@ -21,18 +21,19 @@ using namespace std;
 class Solution {
 public:
     int nthUglyNumber(int n) {
-    	int factors[] = {2, 3, 5};
-    	set<int> S;
-    	S.insert(1);
-    	for(int i = 0 ; i < n-1; i ++) {
-    		set<int>::iterator it = S.begin();
-    		for(int j = 0; j < 3; j ++) {
-    			if((*it) > ((1<<31) - 1) / factors[j]) continue;
-    			S.insert(factors[j] * (*it));
-    		}
-    		S.erase(it);
+    	vector<int> V(n);
+    	V[0] = 1;
+    	int p1, p2, p3;
+    	p1 = p2 = p3 = 0;
+    	for(int i = 1; i < n; i++) {
+    		int minValue = min(min(V[p1] * 2, V[p2] * 3), V[p3] * 5);
+    		if(minValue == V[p1] * 2) p1 ++;
+    		if(minValue == V[p2] * 3) p2 ++;
+    		if(minValue == V[p3] * 5) p3 ++;
+    		V[i] = minValue;
+    		// cout<<V[i]<<endl;
     	}
-    	return *(S.begin());
+    	return V[n-1];
     }
 };
 

@@ -1,24 +1,44 @@
 # LeetCode
 
-还尝试英文写题解，实在表达不好，还是上中文。好多题目没有数据范围，有点不适应。
+好多题目没有数据范围，有点不适应。
 
-## LeetCode Algorithms
+## Algorithms
 
 ### EASY:
 
-[7.Reverse Integer](https://leetcode.com/problems/reverse-integer/)    [9.Palindrome Number](https://leetcode.com/problems/palindrome-number/)    [35.Search Insert Position](https://leetcode.com/problems/search-insert-position) 　　[58.Length of Last Word](https://leetcode.com/problems/length-of-last-word)    [62.Unique Paths](https://leetcode.com/problems/unique-paths) 	[63.Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     [67.Add Binary](https://leetcode.com/problems/add-binary)     [78.Subsets](https://leetcode.com/problems/subsets) 	[94.Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)  	[136.Single Number](https://leetcode.com/problems/single-number) 	[209.Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) 	[229.Bulls and Cows](https://leetcode.com/problems/bulls-and-cows) 	[268.Missing Number](https://leetcode.com/problems/missing-number/) 		[278.First Bad Version](https://leetcode.com/problems/first-bad-version) 		[438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) 	[374.Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) 	[389.Find the Difference](https://leetcode.com/problems/find-the-difference/)	[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/)		[498.Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)     [507.Perfect Number](https://leetcode.com/problems/perfect-number/)     [567.Permutation in String](https://leetcode.com/problems/permutation-in-string)
+[2.Add Two Numbers](https://leetcode.com/problems/add-two-numbers)    [5.Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) 	[7.Reverse Integer](https://leetcode.com/problems/reverse-integer/)    [9.Palindrome Number](https://leetcode.com/problems/palindrome-number/)    [14.Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)    [27.Remove Element](https://leetcode.com/problems/remove-element)    [35.Search Insert Position](https://leetcode.com/problems/search-insert-position) 　  [36.Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)   [55.Jump Game](https://leetcode.com/problems/jump-game/)    [58.Length of Last Word](https://leetcode.com/problems/length-of-last-word)    [62.Unique Paths](https://leetcode.com/problems/unique-paths) 	[63.Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     [67.Add Binary](https://leetcode.com/problems/add-binary)    [71.Simplify Path](https://leetcode.com/problems/simplify-path)    [78.Subsets](https://leetcode.com/problems/subsets) 	[74.Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)    [94.Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)      [110.Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)      [127.Word Ladder](https://leetcode.com/problems/word-ladder)    [131.Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)    [136.Single Number](https://leetcode.com/problems/single-number) 　　[190.Reverse Bits](https://leetcode.com/problems/reverse-bits/) 　  [200.Number of Islands](https://leetcode.com/problems/number-of-islands/)   　[204.Count Primes](https://leetcode.com/problems/count-primes)    [209.Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) 　　[223.Rectangle Area](https://leetcode.com/problems/rectangle-area/)    [229.Bulls and Cows](https://leetcode.com/problems/bulls-and-cows)     [257.Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)      [263.Ugly Number](https://leetcode.com/problems/ugly-number/)    [264.Ugly Number II](https://leetcode.com/problems/ugly-number-ii)    [268.Missing Number](https://leetcode.com/problems/missing-number/) 		[278.First Bad Version](https://leetcode.com/problems/first-bad-version) 	   [283.Move Zeroes](https://leetcode.com/problems/move-zeroes)    [304.Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable)    [318.Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths)    [344.Reverse String](https://leetcode.com/problems/reverse-string/)      [345.Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)   	[438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) 	[374.Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) 	[389.Find the Difference](https://leetcode.com/problems/find-the-difference/)	[434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)    [441.Arranging Coins](https://leetcode.com/problems/arranging-coins/)	[491.Hamming Distance](https://leetcode.com/problems/hamming-distance)    [498.Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)    [500.Keyboard Row](https://leetcode.com/problems/keyboard-row)    [507.Perfect Number](https://leetcode.com/problems/perfect-number/)    [532.K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array)    [540.Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array)    [541.Reverse String II](https://leetcode.com/problems/reverse-string-ii)    [553.Optimal Division](https://leetcode.com/problems/optimal-division)    [554.Brick Wall](https://leetcode.com/problems/brick-wall)     [557.Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)    [567.Permutation in String](https://leetcode.com/problems/permutation-in-string)    [575. Distribute Candies](https://leetcode.com/problems/distribute-candies)    [598.Range Addition II](https://leetcode.com/problems/range-addition-ii/)    [605.Can Place Flowers](https://leetcode.com/problems/can-place-flowers)    [663.Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers)
 
 ### EASY 找规律
 
-[396.Rotate Function](https://leetcode.com/problems/rotate-function) 	
+[89.Gray Code](https://leetcode.com/problems/gray-code)	[169.Majority Element](https://leetcode.com/problems/majority-element)    [202.Happy Number](https://leetcode.com/problems/happy-number)      [274.H-Index](https://leetcode.com/problems/h-index)    [357.Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits)    [396.Rotate Function](https://leetcode.com/problems/rotate-function)     [477.Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance)    [593.Valid Square](https://leetcode.com/problems/valid-square)
 
 ### EASY 模拟
 
-[393.UTF-8 Validation](https://leetcode.com/problems/utf-8-validation)
+[8.String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)    [22.Generate Parentheses](https://leetcode.com/problems/generate-parentheses)    [54.spiral-matrix](https://leetcode.com/problems/spiral-matrix)   [59.Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)    [130.Surrounded Regions !!](https://leetcode.com/problems/surrounded-regions)    [273.Integer to English Words](https://leetcode.com/problems/integer-to-english-words)    [393.UTF-8 Validation](https://leetcode.com/problems/utf-8-validation)	[394.Decode String](https://leetcode.com/problems/decode-string)     [400. Nth Digit](https://leetcode.com/problems/nth-digit)    [401.Binary Watch](https://leetcode.com/problems/binary-watch)    [417.Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow)
 
 ### EASY 链表
 
-[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) 
+[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)     [83.Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)     [100.Same Tree](https://leetcode.com/problems/same-tree/)    [203.Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)     [328.Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)
+
+### EASY 贪心
+
+[42.Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)    [402.Remove K Digits](https://leetcode.com/problems/remove-k-digits)    [475.Heaters](https://leetcode.com/problems/heaters/)    [625.Minimum Factorization](https://leetcode.com/problems/minimum-factorization/)    [665.Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array)    [667.Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii)
+
+### EASY DP
+
+[53.Maximum Subarray](https://leetcode.com/problems/maximum-subarray)    [70.Climbing Stairs](https://leetcode.com/problems/climbing-stairs)    [91.Decode Ways](https://leetcode.com/problems/decode-ways)     [97.Interleaving String](https://leetcode.com/problems/interleaving-string)     [198.House Robber](https://leetcode.com/problems/house-robber)        [213.House Robber II](https://leetcode.com/problems/house-robber-ii)    [279.Prefect Squares](https://leetcode.com/problems/perfect-squares)     [322.Coin Change](https://leetcode.com/problems/coin-change)    [337.House Robber III](https://leetcode.com/problems/house-robber-iii/)     [526.Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement)    [639.Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)
+
+### EASY Tree
+
+[199.Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)    [226.Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)    [513.Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)
+
+### EASY 二分
+
+[275.H-Index II](https://leetcode.com/problems/h-index-ii)
+
+### EASY just code it 
+
+[68.Text Justification](https://leetcode.com/problems/text-justification/)    [79.Word Search](https://leetcode.com/problems/word-search)    [207.Course Schedule](https://leetcode.com/problems/course-schedule)    [210.Course Schedule II](https://leetcode.com/problems/course-schedule-ii)    [542.01 Matrix](https://leetcode.com/problems/01-matrix)    [451.Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency)
 
 ### [1.Two Sum](https://leetcode.com/problems/two-sum/)
 
@@ -70,7 +90,7 @@ We can convert roman numeral to integer from high to low or low to high.
 
 为了写法简单，可以初始化一个头指针，处理完返回它的.next
 
-### [23.Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+### [23.Merge k Sorted Lists*](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 把k个有序的链表合并为一个有序链表。暴力遍历不可行。有两种方法：
 
@@ -125,10 +145,6 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 利用二分，在一个有序数组里面找到目标值的区间。
 
-### [36.Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
-
-判断数独是否是一个有效的（已知的是否有效）。判断3个就好。
-
 ### [37.Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
 
 让你补全一个数独，仅有一个解。
@@ -152,6 +168,10 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 输入一串整数，输出一个最小的不在其中出现的正整数。
 
 输入中负数和大于输入长度的整数可以排除掉，不会影响结果。就在剩下的[1,length]中找到第一个没出现的就好。可以把它看成一种特殊的排序--桶排序。通过不断的把一个数字移动到它应该在的位置，检查第一个不在它应有位置的数字。
+
+### [45.Jump Game II](https://leetcode.com/problems/jump-game-ii/)
+
+贪心。假如，走1步可以最多到达x1，那么第二步可以最多到达的x2,一定来自于[1, x1], x2 = max(i+numx[i]) for i in [1, x1]，依次类推。
 
 ### [46.Permutations*](https://leetcode.com/problems/permutations/)
 
@@ -190,6 +210,10 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 经典递归回溯问题。在n*n棋盘中，放置n个棋子，每两个不同行不同列，不同两个方向的斜线。
 
 可以简单的搜索下每次不和前面的冲突。比较高效的方式是使用位运算压缩一下到每行的不可达的位置。
+
+### [57.Insert Interval](https://leetcode.com/problems/insert-interval)
+
+在intervals里面插入一个interval，合并有覆盖的区间。思路不难，写的好丑。
 
 ### [60.Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)
 
@@ -246,14 +270,6 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 注意相同元素的处理，这部分是无序处理的。
 
-### [100.Same Tree](https://leetcode.com/problems/same-tree/)
-
-判断两个二叉树是否完全一样。递归判断一下就可以了。
-
-### [110.Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
-
-判断一个二叉树是否是平衡二叉树。由底向上判断一下树的深度差小于1就好。
-
 ### [112.Path Sum I](https://leetcode.com/problems/path-sum/)
 
 判断存在一个二叉树从根到底的和为给定值，遍历一下树就可以。
@@ -261,6 +277,16 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 ### [113.Path Sum II](https://leetcode.com/problems/path-sum-ii/)
 
 在上一个的题意上，给出这个路径，思路一样。
+
+### [120.Triangle](https://leetcode.com/problems/triangle/)
+
+动态规划，可以使用滚动数组，仔细想想可以发现一维就够了。
+
+### [126.Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)
+
+单词字母替换，每次只能替换一个，求最短的替换路径。
+
+先bfs求最短，同时记录路径。然后dfs还原路径。
 
 ### [134.Gas Station](https://leetcode.com/problems/gas-station/)
 
@@ -273,6 +299,18 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 给N个小孩分糖吃，每个小孩有一个优先级。满足，每个小孩至少一个糖，如果这个小孩比旁边小孩的优先级高，那么他的糖的数量也要高。求最少给他们分多少个糖。（好抠）
 
 考虑，如果是优先级升序，那么分的糖的数量也升序；如果优先级降序，那么分的糖是降序，不能出现1以下的数量。开始糖数，从左到右全部为1，如果优先级变高，那么比他左面人的糖数加一；同样从右向左搞一遍。然后每个人的糖数，是这两次处理的max。O(n)。
+
+### [*137.Single Number II](https://leetcode.com/problems/single-number-ii/)
+
+除了一个数字只出现一次，其余都出现3次。记录每一位出现的次数，把出现次数mod 3==1的组合起来，就是结果。
+
+还可以用两个int记录只出现一次和只出现两次的二进制，最后取出第一个int，就是结果。
+
+### [*138.Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer)
+
+深拷贝一个带有随机指针的链表。最优的复杂度O(n)。
+
+先将原有链表的下一个指针指向拷贝的节点，然后拷贝的节点的下一个指针指向原有节点的下一个节点。然后弄好随机指针，最后恢复原有链表和拷贝链表的指针。
 
 ### [141.Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
@@ -304,6 +342,12 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 采用归并排序的思想，分治来解决。(可以使用快慢指针来找出中间位置)
 
+### [149.Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line)
+
+求点集中，最多多少个点共线。O(n^2)。
+
+枚举第一个点，遍历第二个点，然后map一下斜率。这个过程认为O(1)。
+
 ### [151.Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
 
 以词为单位翻转字符串。直接做就好喽，具体看代码。
@@ -328,13 +372,13 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 实现BST的hasNext()和next()函数，就是保存状态的二叉树的中序遍历。
 
+### [179.Largest Number](https://leetcode.com/problems/largest-number)
+
+把整数按照字符串进行拼接，求出最大的拼接结果。整体上是按照字典序排序，但是注意`34`,`34341` 这种情况，修改一下排序函数就好。
+
 ### [191.Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 
 求32-bit integer中写成二进制`1`的个数。从末尾依次找即可，O(log(n)) 解决。
-
-### [200.Number of Islands](https://leetcode.com/problems/number-of-islands/)
-
-输入01矩阵，问有多少块连通。没啥可说的，DFS直接搞。
 
 ### [216.Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
 
@@ -345,6 +389,12 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 在一个无序的数组里面找到第k大的数字，也就是c++，STL里面`nth_element()`的功能。 
 
 可以借助快排中partition，每次随机挑选一个值，把他放到应该在的位置，左面都比他小，右面都比他大。然后看k-th在他左面还是右面，继续进行partation.
+
+### [221.Maximal Square](https://leetcode.com/problems/maximal-square)
+
+`dp[i][j]`表示以(i, j)为右下角可以得到的最大正方形边长。
+
+`dp[i][j] = max(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1 if matrix[i][j] == '1'`
 
 ### [224.Basic Calculator](https://leetcode.com/problems/basic-calculator/)
 
@@ -369,6 +419,10 @@ python中的queue使用`from collections import deque`。
 不用像224用栈来做了，只需要遇到加减，把之前的值全部处理完，遇到乘除把之前乘除块的值处理完。
 
 O(n)。
+
+### [229.Majority Element II *](https://leetcode.com/problems/majority-element-ii)
+
+类似169. Majority Element， 设置两个记录，最后再验证一下。
 
 ### [231.Power of Two](https://leetcode.com/problems/power-of-two/)
 
@@ -407,15 +461,17 @@ O(n)。
 
 我们可以把下一个节点的值复制到该节点，然后删除下一个节点。
 
+### [240.Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+
+一个矩阵，从左到右，从上到下，都是递增的。确定一个值是否存在，O(n+m)。
+
 ### [242.Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 
 判断两个字符串是否包含的字母只是顺序不同。直接判断就好。
 
-### [257.Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
+### [260.Single Number III](https://leetcode.com/problems/single-number-iii)
 
-输出一个二叉树从根到叶子的所有路径。
-
-直接递归搜索一下就好了。
+找出出现次数为单次的两个数字。 先全部异或一次，找到异或结果中最后一位1，分别按照这位是否为1，进行异或，可以得到a, b。
 
 ### [282.Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)
 
@@ -442,6 +498,22 @@ O(n)。
 给一个有序的整数串，要求返回它的各个整数区间，单个值返回自己，不返回区间。例如`[0,1,2,4,5,7]`,返回 `["0->2","4->5","7"].`
 
 依次判断一下就好了，复杂度O(n).
+
+### [300.Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)
+
+经典题目LIS，最朴素的dp，O(n^2)。还有通过二分的O(n*log(n))的解法，因为在某个位置之前，能组成的某个长度的LIS的最小值是递增的。
+
+### [307.Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+
+树状数组, Binary Index Tree。
+
+### [312.Burst Balloons](https://leetcode.com/problems/burst-balloons)
+
+有一个数组，每个数字非负，每次选择一个数字，他和他旁边的两个数字相乘取积，然后把这个数字去掉。指导所有的数字都被去掉，求这个积的和最大是多少。
+
+区间DP,复杂度O(n^3)。`dp[i][j]`表示从i到j区间，在不去掉区间边际值(即位置i和j的数字)的情况下，能得到的最大的和。
+
+状态转移:`dp[i][j] = max(dp[i][j], dp[i][k] + dp[k][j] + nums[i]*nums[j]*nums[k]) for k in range(i+1, j)`
 
 ### [319.Bulb Switcher](https://leetcode.com/problems/bulb-switcher)
 
@@ -473,6 +545,12 @@ O(n)时间复杂度，O(1)额外空间。 首先通过O(n)找出median，根据�
 
 细心判断下就好。
 
+### [336.Palindrome Pairs*](https://leetcode.com/problems/palindrome-pairs)
+
+给出distinct的字符串，找出所有的<i,j>， 字符串i拼接上字符串j是一个回文串。
+
+开始写了O(n^3)的TLE，可以有`O(n*k^2)`。 因为各不相同，可以通过map<string,int>来进行快速查找。
+
 ### [338. Counting Bits](https://leetcode.com/problems/counting-bits/)
 
 It's easy to solve this problem by O(n*log(n)) algorithm. 
@@ -499,15 +577,17 @@ solution: **result[i] = result[i & (i-1)] + 1.**
 
 还可以发现随着k从2开始增大到n，这个最优乘积先增大后减小。所以可以用三分进行找最优解，复杂度为$$O(log_3n)$$。
 
-### [344.Reverse String](https://leetcode.com/problems/reverse-string/)
+### [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)
 
-A simple problem about string. Just reverse a string.
+在一个数组中找到出现频率最高的k个元素。
 
-### [345.Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)
+可以用的方法， 先统计每个的出现次数，然后使用heap。或者使用桶排序。
 
-给一个字符串，把里面的元音字母在原来的串中倒序。
+### [349.Intersection Of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
 
-第一次遍历，取出其中的元音字母，把这些元音字母倒序。第二次遍历，对于依次遇到的元音字母用第一次取出的原因字母替换。
+给两个整数串，返回其中重复出现的整数，不要求有序，而且返回的整数中必须唯一。
+
+把两个整数串分别放入两个set中，两个set取并。
 
 ### [350.Intersection of Two Array II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 
@@ -522,6 +602,12 @@ A simple problem about string. Just reverse a string.
 判断一个数是否是完全平方数。
 
 和[69.Sqrt(x)](https://leetcode.com/problems/sqrtx/) 类似。二分，复杂度O(log(n))。
+
+### [373.Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums)
+
+在两个有序数组中，找到top k小的pair<i,j>。
+
+使用优先队列，复杂度O(k*log(k))。有点类似与23.Merge K Sorted List
 
 ### [375.Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)
 
@@ -539,12 +625,6 @@ A simple problem about string. Just reverse a string.
 
 如果按照背包的那种状态转移方式，得到的是不考虑次序的序列个数。
 
-### [349.Intersection Of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
-
-给两个整数串，返回其中重复出现的整数，不要求有序，而且返回的整数中必须唯一。
-
-把两个整数串分别放入两个set中，两个set取并。
-
 ### [372.Super Pow](https://leetcode.com/problems/super-pow/)
 
 求a^b,不过b可能非常的大，所以它以vector(c++)、list(python)为参数。
@@ -552,6 +632,42 @@ A simple problem about string. Just reverse a string.
 原本可以O(log(b))的复杂度解决的，现在由于这种参数形式，我们二进制的思路解法转化为十进制的解法，复杂度也就变成了O(log_10(b))。
 
 如果用C++写，注意取模，不要溢出。
+
+### [384.Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)
+
+shuffle一个数组，可以从头到位依次和一个随机的位置进行交换。
+
+### [395.Longest Substring with At Least K Repeating Characters *](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)
+
+找出满足这样条件的最长子串的长度，其中每个出现的字母的出现次数不小于k。
+
+利用mask记录26个字母中是否符合要求，注意左区间的移动步数。
+
+### [397.Integer Replacement](https://leetcode.com/problems/integer-replacement)
+
+给一个数字，经过两种操作`n/2` or `n+1` or `n-1`。问最少几次操作，变为1.
+
+写成二进制，每一位都要右移一下，对于`1`，只有一个的话，直接减去，两个以上加上一。注意一下末尾处理。
+
+### [406.Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height)
+
+给定n个pair，每个包括这个数字的值和他前面大于等于他的数量。
+
+贪心。从pair里面第二个数字比较小的开始放，而且尽可能往后放。
+
+### [410.Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum)
+
+n个数字，分成m份。使得最大的区间和最小。求这个最小值。
+
+二分这个区间块的和。
+
+### [442.Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array)
+
+只包含1~n的n个数字，找出出现次数为2的所有数。换成原位置就可以
+
+### [445.Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)
+
+两个链表代表的数字相加。改动原位置和不改动。
 
 ### [464.Can I Win*](https://leetcode.com/problems/can-i-win)
 
@@ -570,3 +686,142 @@ A simple problem about string. Just reverse a string.
 一些非负整数，两个人博弈，轮流从这些数的两端取出一个数，最后谁的数字和大，谁赢。判断先手是否能赢。
 
 可以直接进行搜索。其实，这是这种博弈可以用[Minimax算法](https://zh.wikipedia.org/wiki/%E6%9E%81%E5%B0%8F%E5%8C%96%E6%9E%81%E5%A4%A7%E7%AE%97%E6%B3%95) ，每个节点设置启发值，当前所选数字减去剩余区间启发值，叶子节点启发值就是该数字大小。
+
+### [* 493.Reverse Pairs](https://leetcode.com/problems/reverse-pairs)
+
+找i>j , nums[i] > 2\*nums[j]的个数。
+
+最开始，写了一个Trie，发现没考虑负数的情况WA。
+
+后来写了个,BST，发现题目卡非平衡二叉树，TLE。
+
+最后，采用树状数组BIT(Binary Index Tree)，依次在数组中以他应该在的位次放入nums[j]，在放之前查询下在已经放入的j个数字中有多少大于2\*num[j]的数字（需要二分确定2\*num[j]的应在位置)。复杂度O(n*log(n))。
+
+### [494.Target Sum](https://leetcode.com/problems/target-sum)
+
+给一个数组整数，在前面加上`+` `-` 使得结果为S。求多少种方案。
+
+动态规划+滚动数组
+
+### [496.Next Greater Element I *](https://leetcode.com/problems/next-greater-element-i)
+
+找到一个数字，下一个比它大的数字。利用stack，如果一个数字找到了比它大的就出栈，栈里面是始终是非递增的。O(n)
+
+### [503.Next Greater Element II  ](https://leetcode.com/problems/next-greater-element-ii/)
+
+和496的区别是数组构成一个环，还是利用stack，第一次遍历全部加入，第二次只是比较不加入。
+
+### [525.Contiguous Array](https://leetcode.com/problems/contiguous-array)
+
+给一个只含有0 1的数组，求里面最长的区间长度，区间内01个数相等。
+
+考虑O(n)的复杂度，可以算出来每个位置，从头到现在0比1多的个数。只要任何两个位置这个数字相等就算合格的区间。
+
+首先把每个位置这个值算出来，统计一下这些值所在位置的最大下标和最小下标。求出这个差值的最大值。
+
+### [*546.Remove Boxes](https://leetcode.com/problems/remove-boxes)
+
+一个数组，不同的数值代表不同的类别，每次可以消去连续的同类别的数字，获得价值为消去区间长度的平方；余下的组成新的数组。求最多可以获得多少价值。
+
+动态规划。`dp[l][r][m]` 代表区间[l, r]，在之前有m个数字和num[l]相同的情况下，可以获得的最大价值和。多加一维的原因是，这样可以转移到子区间来求解，完整的表达状态。`dp[l][r][m]=max(dp[l][r][m], dp[l][i][0] + dp[i+1][r][m+1]) for i in range(l, r+1) if num[i] == num[l]`
+
+### [556.Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii)
+
+给一个正整数，找出这样的正整数，这个正整数包含的数字和之前以前，而且它是之前的next greater number。
+
+贪心一下，从末尾开始，找到第一个非递增的数字，然后用后面比他大的最小的数字进行交换，然后把后面的进行排序。
+
+### [621.Task Scheduler*](https://leetcode.com/problems/task-scheduler)
+
+给定一些任务，相同类别的任务之间要有n个时间间隔，要么用其他任务隔开，要么空闲时间隔开。
+
+贪心，最优的一种排列方法，就是先把出现最多的依次放在大小为n+1的间隔里面。
+
+### [650. 2 Keys Keyboard*](https://leetcode.com/problems/2-keys-keyboard/)
+
+初始有一个字母`A`,有两种操作，复制之前所有的字符，粘贴上一次复制的内容。求得到正好n个需要多少次操作。
+
+dp[i] 表示得到正好i个字母所需要的最少操作数。dp[i] = min (dp[i], dp[j] + i / j if i %j == 0)
+
+### [672.Bulb Switcher II*](https://leetcode.com/problems/bulb-switcher-ii/)
+
+有4种操作灯泡的方式，问给你n个灯泡，m次机会。灯泡的序列有多少种状态。
+
+可以发现当n>=3 && n>=3的时候，结果==8。其余情况特殊分析。
+
+## Database
+
+[595.Big Countries](https://leetcode.com/problems/big-countries)
+
+### [175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables)
+
+Person表是主表，Address表是从表，通过Left Outer Join左外连接
+
+### [176.Second Highest Salary](https://leetcode.com/problems/second-highest-salary)
+
+在select后使用()内查询。
+
+### [177.Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary)
+
+函数的写法。
+
+### [178.Rank Scores](https://leetcode.com/problems/rank-scores)
+
+类似176的写法 。
+
+### [180.Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers)
+
+两个`inner join` 自连接
+
+### [181.Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers)
+
+`inner join`
+
+### [182.Duplicate Emails](https://leetcode.com/problems/duplicate-emails)
+
+`group by` , `having`
+
+### [183.Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)
+
+使用`not in` 或者使用`left join` 只留`is NULL`
+
+### [184.Department Highest Salary](https://leetcode.com/problems/department-highest-salary)
+
+多级嵌套查询.
+
+### [185.Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)
+
+父语句中的项可以在子语句中用到。
+
+### [196.Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails)
+
+注意update/delete，如果where中用到相同的表，要加上`select * from (原本的where中语句) as t`,因为如果不这么做，更新和where中的操作是交替进行的，这样做就成了先后进行的。
+
+### [197.Rising Temperature](https://leetcode.com/problems/rising-temperature)
+
+`inner join` , `to_days()`
+
+### [*262.Trips and Users](https://leetcode.com/problems/trips-and-users)
+
+自己写的挺繁琐的，处理`group by ` count为0不显示的问题(用left join ifnull(xx,0)判断)，然后看到别人写法很简洁。
+
+`round(sum(case when t.Status like 'cancelled_%' then 1 else 0 end)/count(*),2) Rate`
+
+### [596.Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students)
+
+类似 182.
+
+### [601. Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium)
+
+两次`inner join`
+
+### [620.Not Boring Movies](https://leetcode.com/problems/not-boring-movies)
+
+简单
+
+### [627.Swap Salary](https://leetcode.com/problems/swap-salary)
+
+`update salary set sex = if(sex='m', 'f', 'm');`
+
+`update salary set sex = char(ASCII(sex) ^ ASCII('m') ^ ASCII('f'));`
+

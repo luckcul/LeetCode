@@ -1,8 +1,8 @@
 /* ***********************************************
  	Author        : luckcul
  	Mail          : tyfdream@gmail.com
- 	Created Time  : 2017-06-30 09:35:23
- 	Problem       : Ugly Number II
+ 	Created Time  : 2017-08-06 18:06:23
+ 	Problem       : delete duplicates
 ************************************************ */
 #include <cstdio>
 #include <cstring>
@@ -18,31 +18,36 @@ using namespace std;
 #define INF 1000000000
 //typedef __int64 LL; 
 
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
 class Solution {
 public:
-    int nthUglyNumber(int n) {
-    	int factors[] = {2, 3, 5};
-    	set<int> S;
-    	S.insert(1);
-    	for(int i = 0 ; i < n-1; i ++) {
-    		set<int>::iterator it = S.begin();
-    		for(int j = 0; j < 3; j ++) {
-    			if((*it) > ((1<<31) - 1) / factors[j]) continue;
-    			S.insert(factors[j] * (*it));
-    		}
-    		S.erase(it);
-    	}
-    	return *(S.begin());
+    ListNode* deleteDuplicates(ListNode* head) {
+        ListNode* p = head;
+        if(!p) return head;
+        while(p->next){
+        	if(p->next->val == p->val) {
+        		p->next = p->next->next;
+        	}
+        	else {
+        		p=p->next;
+        	}
+        }
+        return head;
     }
 };
-
 
 int main() {
 #ifndef ONLINE_JUDGE
 	freopen("in.txt", "r", stdin); 
 #endif // ONLINE_JUDGE
-	Solution x = Solution();
-	cout<<x.nthUglyNumber(1407);
+	
 	
 	return 0; 
 }

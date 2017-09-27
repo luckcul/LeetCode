@@ -1,8 +1,8 @@
 /* ***********************************************
  	Author        : luckcul
  	Mail          : tyfdream@gmail.com
- 	Created Time  : 2017-06-30 09:35:23
- 	Problem       : Ugly Number II
+ 	Created Time  : 2017-08-24 22:08:35
+ 	Problem       : Perfect Squares
 ************************************************ */
 #include <cstdio>
 #include <cstring>
@@ -20,29 +20,23 @@ using namespace std;
 
 class Solution {
 public:
-    int nthUglyNumber(int n) {
-    	int factors[] = {2, 3, 5};
-    	set<int> S;
-    	S.insert(1);
-    	for(int i = 0 ; i < n-1; i ++) {
-    		set<int>::iterator it = S.begin();
-    		for(int j = 0; j < 3; j ++) {
-    			if((*it) > ((1<<31) - 1) / factors[j]) continue;
-    			S.insert(factors[j] * (*it));
-    		}
-    		S.erase(it);
-    	}
-    	return *(S.begin());
+    int numSquares(int n) {
+        vector<int> dp(n+1, 1e9);
+        dp[0] = 0;
+        for(int i = 1; i <= n; i++) {
+        	for(int j = 1; j * j <= i; j++) {
+        		dp[i] = min(dp[i], dp[i - j*j] + 1);
+        	}
+        }
+        return dp[n];
     }
 };
-
 
 int main() {
 #ifndef ONLINE_JUDGE
 	freopen("in.txt", "r", stdin); 
 #endif // ONLINE_JUDGE
-	Solution x = Solution();
-	cout<<x.nthUglyNumber(1407);
+	
 	
 	return 0; 
 }

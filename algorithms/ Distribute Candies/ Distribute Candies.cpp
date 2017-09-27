@@ -1,8 +1,8 @@
 /* ***********************************************
  	Author        : luckcul
  	Mail          : tyfdream@gmail.com
- 	Created Time  : 2017-06-30 09:35:23
- 	Problem       : Ugly Number II
+ 	Created Time  : 2017-08-20 22:18:16
+ 	Problem       : Distribute Candies
 ************************************************ */
 #include <cstdio>
 #include <cstring>
@@ -20,29 +20,21 @@ using namespace std;
 
 class Solution {
 public:
-    int nthUglyNumber(int n) {
-    	int factors[] = {2, 3, 5};
-    	set<int> S;
-    	S.insert(1);
-    	for(int i = 0 ; i < n-1; i ++) {
-    		set<int>::iterator it = S.begin();
-    		for(int j = 0; j < 3; j ++) {
-    			if((*it) > ((1<<31) - 1) / factors[j]) continue;
-    			S.insert(factors[j] * (*it));
-    		}
-    		S.erase(it);
-    	}
-    	return *(S.begin());
+    int distributeCandies(vector<int>& candies) {
+        sort(candies.begin(), candies.end());
+        int diff = 1;
+        for(int i = 1; i < int(candies.size()); i++) {
+        	diff += (candies[i] == candies[i-1] ? 0:1);
+        }
+        return min((int)candies.size()/2, diff);
     }
 };
-
 
 int main() {
 #ifndef ONLINE_JUDGE
 	freopen("in.txt", "r", stdin); 
 #endif // ONLINE_JUDGE
-	Solution x = Solution();
-	cout<<x.nthUglyNumber(1407);
+	
 	
 	return 0; 
 }
