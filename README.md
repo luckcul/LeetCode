@@ -6,11 +6,11 @@
 
 ### EASY:
 
-[2.Add Two Numbers](https://leetcode.com/problems/add-two-numbers)    [5.Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) 	[7.Reverse Integer](https://leetcode.com/problems/reverse-integer/)    [9.Palindrome Number](https://leetcode.com/problems/palindrome-number/)    [14.Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)    [27.Remove Element](https://leetcode.com/problems/remove-element)    [35.Search Insert Position](https://leetcode.com/problems/search-insert-position) 　  [36.Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)   [55.Jump Game](https://leetcode.com/problems/jump-game/)    [58.Length of Last Word](https://leetcode.com/problems/length-of-last-word)    [62.Unique Paths](https://leetcode.com/problems/unique-paths) 	[63.Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     [67.Add Binary](https://leetcode.com/problems/add-binary)    [71.Simplify Path](https://leetcode.com/problems/simplify-path)    [78.Subsets](https://leetcode.com/problems/subsets) 	[74.Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)    [94.Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)      [110.Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)      [127.Word Ladder](https://leetcode.com/problems/word-ladder)    [131.Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)    [136.Single Number](https://leetcode.com/problems/single-number) 　　[190.Reverse Bits](https://leetcode.com/problems/reverse-bits/) 　  [200.Number of Islands](https://leetcode.com/problems/number-of-islands/)   　[204.Count Primes](https://leetcode.com/problems/count-primes)    [209.Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) 　　[223.Rectangle Area](https://leetcode.com/problems/rectangle-area/)    [229.Bulls and Cows](https://leetcode.com/problems/bulls-and-cows)     [257.Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)      [263.Ugly Number](https://leetcode.com/problems/ugly-number/)    [264.Ugly Number II](https://leetcode.com/problems/ugly-number-ii)    [268.Missing Number](https://leetcode.com/problems/missing-number/) 		[278.First Bad Version](https://leetcode.com/problems/first-bad-version) 	   [283.Move Zeroes](https://leetcode.com/problems/move-zeroes)    [304.Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable)    [318.Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths)    [344.Reverse String](https://leetcode.com/problems/reverse-string/)      [345.Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)   	[438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) 	[374.Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) 	[389.Find the Difference](https://leetcode.com/problems/find-the-difference/)	[434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)    [441.Arranging Coins](https://leetcode.com/problems/arranging-coins/)	[491.Hamming Distance](https://leetcode.com/problems/hamming-distance)    [498.Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)    [500.Keyboard Row](https://leetcode.com/problems/keyboard-row)    [507.Perfect Number](https://leetcode.com/problems/perfect-number/)    [532.K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array)    [540.Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array)    [541.Reverse String II](https://leetcode.com/problems/reverse-string-ii)    [553.Optimal Division](https://leetcode.com/problems/optimal-division)    [554.Brick Wall](https://leetcode.com/problems/brick-wall)     [557.Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)    [567.Permutation in String](https://leetcode.com/problems/permutation-in-string)    [575. Distribute Candies](https://leetcode.com/problems/distribute-candies)    [598.Range Addition II](https://leetcode.com/problems/range-addition-ii/)    [605.Can Place Flowers](https://leetcode.com/problems/can-place-flowers)    [663.Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers)
+[2.Add Two Numbers](https://leetcode.com/problems/add-two-numbers)    [5.Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) 	[7.Reverse Integer](https://leetcode.com/problems/reverse-integer/)    [9.Palindrome Number](https://leetcode.com/problems/palindrome-number/)    [14.Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)    [20.Valid Parentheses](https://leetcode.com/problems/valid-parentheses)       [26.Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)    [27.Remove Element](https://leetcode.com/problems/remove-element)     [32.Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)    [35.Search Insert Position](https://leetcode.com/problems/search-insert-position) 　  [36.Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)    [38.Count and Say](https://leetcode.com/problems/count-and-say)    [55.Jump Game](https://leetcode.com/problems/jump-game/)     [56.Merge Intervals](https://leetcode.com/problems/merge-intervals)    [58.Length of Last Word](https://leetcode.com/problems/length-of-last-word)    [62.Unique Paths](https://leetcode.com/problems/unique-paths) 	[63.Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)    [64.Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)    [66.Plus One](https://leetcode.com/problems/plus-one)    [67.Add Binary](https://leetcode.com/problems/add-binary)    [71.Simplify Path](https://leetcode.com/problems/simplify-path)    [78.Subsets](https://leetcode.com/problems/subsets) 	[74.Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)    [94.Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)      [110.Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)    [118.Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)    [119.Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)    [121.Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)     [122.Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)     [123.Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)    [125.Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)    [127.Word Ladder](https://leetcode.com/problems/word-ladder)    [131.Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)    [136.Single Number](https://leetcode.com/problems/single-number)    [150.Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)    [151.Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)    [155.Min Stack](https://leetcode.com/problems/min-stack/)    [172.Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)    [187.Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences)    [190.Reverse Bits](https://leetcode.com/problems/reverse-bits/) 　  [200.Number of Islands](https://leetcode.com/problems/number-of-islands/)   　[204.Count Primes](https://leetcode.com/problems/count-primes)    [209.Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum)      [217.Contains Duplicate](https://leetcode.com/problems/contains-duplicate)    [219.Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)    [223.Rectangle Area](https://leetcode.com/problems/rectangle-area/)    [229.Bulls and Cows](https://leetcode.com/problems/bulls-and-cows)     [238.Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)    [257.Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)      [263.Ugly Number](https://leetcode.com/problems/ugly-number/)    [264.Ugly Number II](https://leetcode.com/problems/ugly-number-ii)    [268.Missing Number](https://leetcode.com/problems/missing-number/) 		[278.First Bad Version](https://leetcode.com/problems/first-bad-version) 	   [283.Move Zeroes](https://leetcode.com/problems/move-zeroes)    [304.Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable)    [318.Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths)    [344.Reverse String](https://leetcode.com/problems/reverse-string/)      [345.Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)     [413.Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)    [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string) 	[374.Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) 	[389.Find the Difference](https://leetcode.com/problems/find-the-difference/)     [412.Fizz Buzz](https://leetcode.com/problems/fizz-buzz)    [419.Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)    [434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)    [441.Arranging Coins](https://leetcode.com/problems/arranging-coins/)	[491.Hamming Distance](https://leetcode.com/problems/hamming-distance)    [498.Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)    [500.Keyboard Row](https://leetcode.com/problems/keyboard-row)    [507.Perfect Number](https://leetcode.com/problems/perfect-number/)    [520.Detect Capital](https://leetcode.com/problems/detect-capital/)    [532.K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array)    [540.Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array)    [541.Reverse String II](https://leetcode.com/problems/reverse-string-ii)    [553.Optimal Division](https://leetcode.com/problems/optimal-division)    [554.Brick Wall](https://leetcode.com/problems/brick-wall)     [557.Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)     [560.Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)    [567.Permutation in String](https://leetcode.com/problems/permutation-in-string)    [575. Distribute Candies](https://leetcode.com/problems/distribute-candies)    [598.Range Addition II](https://leetcode.com/problems/range-addition-ii/)    [605.Can Place Flowers](https://leetcode.com/problems/can-place-flowers)    [663.Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers)
 
 ### EASY 找规律
 
-[89.Gray Code](https://leetcode.com/problems/gray-code)	[169.Majority Element](https://leetcode.com/problems/majority-element)    [202.Happy Number](https://leetcode.com/problems/happy-number)      [274.H-Index](https://leetcode.com/problems/h-index)    [357.Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits)    [396.Rotate Function](https://leetcode.com/problems/rotate-function)     [477.Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance)    [593.Valid Square](https://leetcode.com/problems/valid-square)
+[89.Gray Code](https://leetcode.com/problems/gray-code)	[169.Majority Element](https://leetcode.com/problems/majority-element)    [202.Happy Number](https://leetcode.com/problems/happy-number)      [274.H-Index](https://leetcode.com/problems/h-index)    [357.Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits)    [396.Rotate Function](https://leetcode.com/problems/rotate-function)     [477.Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance)    [593.Valid Square](https://leetcode.com/problems/valid-square)    [611.Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)
 
 ### EASY 模拟
 
@@ -18,27 +18,35 @@
 
 ### EASY 链表
 
-[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)     [83.Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)     [100.Same Tree](https://leetcode.com/problems/same-tree/)    [203.Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)     [328.Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)
+[19.Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)    [24.Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)    [61.Rotate List](https://leetcode.com/problems/rotate-list/)    [83.Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)     [92.Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)    [100.Same Tree](https://leetcode.com/problems/same-tree/)     [160.Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)    [203.Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)     [206.Reverse Linked List](https://leetcode.com/problems/reverse-linked-list)    [328.Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)
 
 ### EASY 贪心
 
-[42.Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)    [402.Remove K Digits](https://leetcode.com/problems/remove-k-digits)    [475.Heaters](https://leetcode.com/problems/heaters/)    [625.Minimum Factorization](https://leetcode.com/problems/minimum-factorization/)    [665.Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array)    [667.Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii)
+[11.Container With Most Water](https://leetcode.com/problems/container-with-most-water)    [42.Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)    [152.Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)     [402.Remove K Digits](https://leetcode.com/problems/remove-k-digits)    [475.Heaters](https://leetcode.com/problems/heaters/)    [561.Array Partition I](https://leetcode.com/problems/array-partition-i)    [625.Minimum Factorization](https://leetcode.com/problems/minimum-factorization/)    [665.Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array)    [667.Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii)
 
 ### EASY DP
 
-[53.Maximum Subarray](https://leetcode.com/problems/maximum-subarray)    [70.Climbing Stairs](https://leetcode.com/problems/climbing-stairs)    [91.Decode Ways](https://leetcode.com/problems/decode-ways)     [97.Interleaving String](https://leetcode.com/problems/interleaving-string)     [198.House Robber](https://leetcode.com/problems/house-robber)        [213.House Robber II](https://leetcode.com/problems/house-robber-ii)    [279.Prefect Squares](https://leetcode.com/problems/perfect-squares)     [322.Coin Change](https://leetcode.com/problems/coin-change)    [337.House Robber III](https://leetcode.com/problems/house-robber-iii/)     [526.Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement)    [639.Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)
+[44.Wildcard Matching](https://leetcode.com/problems/wildcard-matching)    [53.Maximum Subarray](https://leetcode.com/problems/maximum-subarray)    [70.Climbing Stairs](https://leetcode.com/problems/climbing-stairs)    [91.Decode Ways](https://leetcode.com/problems/decode-ways)     [97.Interleaving String](https://leetcode.com/problems/interleaving-string)     [139.Word Break](https://leetcode.com/problems/word-break)    [198.House Robber](https://leetcode.com/problems/house-robber)        [213.House Robber II](https://leetcode.com/problems/house-robber-ii)    [279.Prefect Squares](https://leetcode.com/problems/perfect-squares)     [322.Coin Change](https://leetcode.com/problems/coin-change)    [337.House Robber III](https://leetcode.com/problems/house-robber-iii/)    [416.Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum)    [526.Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement)    [639.Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)    [646.Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain)
 
 ### EASY Tree
 
-[199.Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)    [226.Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)    [513.Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)
+[95.][98.Validate Binary Search Tree][Unique Binary Search Tree II](https://leetcode.com/problems/unique-binary-search-trees-ii/)    [101.Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)    [102.Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)    [104.Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)   [105.Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)   [108.Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)    [114.Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)    [116.Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)    [124.Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)    [145.Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)   [199.Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)    [226.Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)   [230.Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)    [404.Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)     [513.Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)    [515.Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)    [538.Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree)    [543.Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree)    [572.Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)    [617.Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees)
 
 ### EASY 二分
 
-[275.H-Index II](https://leetcode.com/problems/h-index-ii)
+[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)    [154.Find Minimum in Rotated Sorted Array II * ](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)    [275.H-Index II](https://leetcode.com/problems/h-index-ii)
+
+### None
+
+[73.Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)    [523.Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)
 
 ### EASY just code it 
 
-[68.Text Justification](https://leetcode.com/problems/text-justification/)    [79.Word Search](https://leetcode.com/problems/word-search)    [207.Course Schedule](https://leetcode.com/problems/course-schedule)    [210.Course Schedule II](https://leetcode.com/problems/course-schedule-ii)    [542.01 Matrix](https://leetcode.com/problems/01-matrix)    [451.Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency)
+[6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)    [17.Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)    [68.Text Justification](https://leetcode.com/problems/text-justification/)    [79.Word Search](https://leetcode.com/problems/word-search)    [93.Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses)    [128.Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)   [131.Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)    [207.Course Schedule](https://leetcode.com/problems/course-schedule)      [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)    [210.Course Schedule II](https://leetcode.com/problems/course-schedule-ii)     [212.Word Search II](https://leetcode.com/problems/word-search-ii)    [297.Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)    [315.Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)    [329.Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)     [378.Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)    [399.Evaluate Division](https://leetcode.com/problems/evaluate-division)    [$440.K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order)    [448.Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array)    [451.Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency)    [449.Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst)    [504.Base 7](https://leetcode.com/problems/base-7)      [542.01 Matrix](https://leetcode.com/problems/01-matrix)    [572.Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)    
+
+### Contest
+
+[696.Count Binary Substrings](https://leetcode.com/contest/leetcode-weekly-contest-54/problems/count-binary-substrings/)    [697.Degree of an Array](https://leetcode.com/contest/leetcode-weekly-contest-54/problems/degree-of-an-array/)    [698.Partition to K Equal Sum Subsets](https://leetcode.com/contest/leetcode-weekly-contest-54/problems/partition-to-k-equal-sum-subsets/)    [699.Falling Squares](https://leetcode.com/problems/falling-squares/)    
 
 ### [1.Two Sum](https://leetcode.com/problems/two-sum/)
 
@@ -49,6 +57,14 @@ C++中用map。O(n*log(n))的复杂度。
 ### [3.Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)
 
 在一个给定的字符串中，寻找一个没有重复元素的最长子串。Two Point问题，枚举左区间，维护右区间。
+
+### [*4.Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)
+
+两个有序数组中，寻找中值。复杂度O(log(n+m))。加入要查找第k小，每次在两个数组中，比较中值的大小，进而缩小范围。
+
+### [10.Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) *
+
+含有`.*`的正则匹配判断。 `dp[i][j]`表示前i个正则串匹配前j个字符。如果是`.` or `a`的话，直接转移， 如果是`*` 的话，可能匹配0次（`dp[i-2][j]`)，可能匹配多次(`dp[i][j-1] &&(s[j] == p[i-1] || p[i-1] == '.')`)
 
 ### [12.Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
 
@@ -227,6 +243,12 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 由于结果是一个整数，直接二分就好，复杂度O(log(x))。
 
+### [72.Edit Distance](https://leetcode.com/problems/edit-distance) *
+
+dp。`dp[i][j]`表示word1前i个字母，编辑到word2的前j个字母的距离。
+
+`dp[i][j] = dp[i-1][j] if word1[i] == word2[j] else min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1])+1`
+
 ### [75.Sort Colors](https://leetcode.com/problems/sort-colors/)
 
 不要用STL中的sort，把含有`0 1 2`的串排序。
@@ -270,6 +292,10 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 注意相同元素的处理，这部分是无序处理的。
 
+### [95.Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) *
+
+n个不同值组成的BST的种类数。dp[i]表示i个不同大小的值组成BST的数量。$dp[i] = \sum_{j=0}^{i-1}dp[j]*dp[i-1-j]$ ，因为实在枚举根节点的值，根节点为1时，左面0个，右面i-1个；根节点为2时，左面1个，右面i-2个……
+
 ### [112.Path Sum I](https://leetcode.com/problems/path-sum/)
 
 判断存在一个二叉树从根到底的和为给定值，遍历一下树就可以。
@@ -312,6 +338,10 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 先将原有链表的下一个指针指向拷贝的节点，然后拷贝的节点的下一个指针指向原有节点的下一个节点。然后弄好随机指针，最后恢复原有链表和拷贝链表的指针。
 
+### [140.Word Break II](https://leetcode.com/problems/word-break-ii) *
+
+求一个无分隔的词，可以用字典中词分隔开，求所有的分隔结果。DFS，但是必须记忆化。`map<string, vector<string>> `
+
 ### [141.Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
 对于一个链表，判断是否有环，最好不要用额外的空间。
@@ -324,13 +354,17 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 和上到题目一样，要求出环的起始点。
 
-在上一题的基础上，一个比较直观的想法是：先求出环的长度k，从链表的头开始向后找，如果这个当前这个节点向后k个节点是自己，这个点就是环的起始点。但是这样复杂度是O(n^2)，写了一下竟然A了，812ms，看了一下有比较快的算法，那么最优的算法估计复杂度还是O(n)。
+在上一题的基础上，一个比较直观的想法是：先求出环的长度k，从链表的头开始向后找，如果这个当前这个节点向后k个节点是自己，这个点就是环的起始点。但是这样复杂度是O(n^2)，写了一下竟然A了，812 ms，看了一下有比较快的算法，那么最优的算法估计复杂度还是O(n)。
 
 假设起点是`X`，环的起点是`Y`，上个题目做法中第一次相遇的点是`Z`，`X`到`Y`的距离是a，`Y`到`Z`的距离是b，`Z`到`Y`的距离是c，环的长度为L=b+c。
 
 那么，`2*(a+b) = a+n*L+b, n>=1`，即慢指针走过的距离的2倍等于快指针走过的距离。得到`a+b = n*L, n>=1`。
 
 观察这个式子发现`a = n*L-b = (n-1)*L+c, n>=1`,即a的距离等于c的距离加上n-1倍的环的长度。那么，可以想到，设置两个指针，一个在起点`X`，一个在相遇点`Z`，两个指针每次都走一步，那么现在的相遇点就是环的起点`Y`了。这个算法复杂度O(n)。
+
+### * [146.LRU Cache](https://leetcode.com/problems/lru-cache/) 
+
+设计实现LRU  Cache,要求get和put操作都是O(1)的。这样在查询的时候，就要用到hash table。而为了确认当满了，要删除哪个的时候，就要利用链表来实现这个操作。
 
 ### [147.Insection Sort List](https://leetcode.com/problems/insertion-sort-list/)
 
@@ -342,19 +376,19 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 采用归并排序的思想，分治来解决。(可以使用快慢指针来找出中间位置)
 
-### [149.Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line)
+### [149.Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line) *
 
 求点集中，最多多少个点共线。O(n^2)。
 
 枚举第一个点，遍历第二个点，然后map一下斜率。这个过程认为O(1)。
 
-### [151.Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
-
-以词为单位翻转字符串。直接做就好喽，具体看代码。
-
 ### [162.Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 
 给定一个数列num[1~n] 假定`num[0] = num[n+1] = -INF`，求peak值的索引，peak值就是大于左右两个相邻的值。由于num[0], num[n+1]都是负无穷大，所以一定优解，要求O(log(n))的复杂度，可以进行二分。当二分到某个值，比较它的左右值，如果是peak，则找到任一解；如果是上升的，继续二分右区间；否则二分左区间。这样可以一定得到任一解。
+
+### [164.Maximum Gap](https://leetcode.com/problems/maximum-gap) *
+
+bucket sort。
 
 ### [165.Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)
 
@@ -362,11 +396,9 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 注意，`0.01 == 0.1`, `0.1.0 == 0.1`。
 
-### [172.Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
+### [166.Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)
 
-给定整数n，问n!末尾有多少个0 。
-
-老问题了，就是看n!中因子5和2的个数，5的个数少于2，所以看5的个数就好了。一个5因子可以产生一个末尾0,25可以产生两个，125产生3个。。。
+分数转为小数，若有循环节要标明。可以发现循环节大小不会超过分母的大小，把小数部分的余数，每次x10，取余数，依次进行。如果余数出现重复，则有循环节出现。注意两种情况,-INF的出现，分子为0
 
 ### [173.Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator)
 
@@ -375,6 +407,10 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 ### [179.Largest Number](https://leetcode.com/problems/largest-number)
 
 把整数按照字符串进行拼接，求出最大的拼接结果。整体上是按照字典序排序，但是注意`34`,`34341` 这种情况，修改一下排序函数就好。
+
+### [189.Rotate Array](https://leetcode.com/problems/rotate-array)
+
+可以reverse3段。
 
 ### [191.Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 
@@ -390,11 +426,21 @@ C++最好转化为`long long`来做，因为进行二分的时候可能会相加
 
 可以借助快排中partition，每次随机挑选一个值，把他放到应该在的位置，左面都比他小，右面都比他大。然后看k-th在他左面还是右面，继续进行partation.
 
+### [220.Contains Duplicate III * ](https://leetcode.com/problems/contains-duplicate-iii/)
+
+在一个数组中，寻找这样的i, j，使得abs(i-j) <= k and abs(nums[i] - nums[j] ) <= t。
+
+用map维护一个大小为k的nums[i], i。每次map的keys里面二分大于等于nums[x]-t的最小数字，看看是否符合要求。
+
 ### [221.Maximal Square](https://leetcode.com/problems/maximal-square)
 
 `dp[i][j]`表示以(i, j)为右下角可以得到的最大正方形边长。
 
 `dp[i][j] = max(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1 if matrix[i][j] == '1'`
+
+### [222.Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
+
+`O((log(n)^2)`
 
 ### [224.Basic Calculator](https://leetcode.com/problems/basic-calculator/)
 
@@ -444,7 +490,9 @@ O(n)。
 
 可以用记忆化搜索来实现。如果在边界，就不能用到已有的dp(i,j)的值。如果输入足够大，结果会溢出，但是OJ并没有这样的数据。
 
-好久没写这样的题目，竟然1A，感动。
+### [234.Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) *
+
+O(1)空间 O(n)复杂度判断一个链表是否是回文。需要把后半段reverse一下，然后在顺序判断。
 
 ### [235.Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
@@ -461,13 +509,21 @@ O(n)。
 
 我们可以把下一个节点的值复制到该节点，然后删除下一个节点。
 
-### [240.Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+### [239.Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum)*
+
+单调队列经典题目。使用deque实现单调队列。
+
+### [240.Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) *
 
 一个矩阵，从左到右，从上到下，都是递增的。确定一个值是否存在，O(n+m)。
 
 ### [242.Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 
 判断两个字符串是否包含的字母只是顺序不同。直接判断就好。
+
+### [258.Add Digits](https://leetcode.com/problems/add-digits)
+
+`abc = a*100^2 + b*10 + c = a + b + c (mod 9)`
 
 ### [260.Single Number III](https://leetcode.com/problems/single-number-iii)
 
@@ -499,13 +555,21 @@ O(n)。
 
 依次判断一下就好了，复杂度O(n).
 
-### [300.Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)
+### [295.Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+
+O(log(n)), O(1)
+
+### [300.Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) *
 
 经典题目LIS，最朴素的dp，O(n^2)。还有通过二分的O(n*log(n))的解法，因为在某个位置之前，能组成的某个长度的LIS的最小值是递增的。
 
 ### [307.Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
 
 树状数组, Binary Index Tree。
+
+### [309.Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+
+买卖股票。可以进行无数多次交易，但是任意两次交易不能有交叉，而且中间至少隔一天。如果没有隔一天的限制的话，就是把所有升序的求和即可。限制的限制就是两个交易之间至少隔开**两段**。动态规划， O(n) 。 `dp[N][3], dp[i][0] = max(dp[i-1][0] + num, dp[i-1][2]+num), dp[i][1] = dp[i-1][0], dp[i][2] = max(dp[i-1][1], dp[i-1][2])`
 
 ### [312.Burst Balloons](https://leetcode.com/problems/burst-balloons)
 
@@ -561,6 +625,10 @@ For num`i` and `i-1` , it's only different for the low part in their binary form
 
 solution: **result[i] = result[i & (i-1)] + 1.**
 
+### [341.Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)
+
+把多层的list，依次遍历，把简单递归可以完成的事情，用非递归完成。为了效率注意使用iterator。
+
 ### [342.Power of Four](https://leetcode.com/problems/power-of-four/)
 
 判断一个整数n，是否是4的幂。不适用循环和递归。
@@ -596,6 +664,10 @@ solution: **result[i] = result[i & (i-1)] + 1.**
 分别给两个数组排序，然后对两个数组从小到大依次判断是否重复。复杂度O(n\*log(n) + m\*log(m))。
 
 其实，如果n或者m很大，可以采用O(n*m)的方法。 
+
+### [354.Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes) *
+
+很容易想到O(n^2)的解法。如果要O(n log(n))，就要在第一关键字从小到大，第二关键字从大到小，然后求LIS。这样排序是为了避免同样大小的第一关键字嵌套。
 
 ### [367.Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)
 
@@ -637,6 +709,10 @@ solution: **result[i] = result[i & (i-1)] + 1.**
 
 shuffle一个数组，可以从头到位依次和一个随机的位置进行交换。
 
+### [391.Perfect Rectangle *](https://leetcode.com/problems/perfect-rectangle)
+
+可以发现某一个点，如果在最后组成的矩形里面，必定为小矩形的顶点，且出现偶数次。最后组成的大矩形的顶点出现一次。
+
 ### [395.Longest Substring with At Least K Repeating Characters *](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)
 
 找出满足这样条件的最长子串的长度，其中每个出现的字母的出现次数不小于k。
@@ -669,6 +745,10 @@ n个数字，分成m份。使得最大的区间和最小。求这个最小值。
 
 两个链表代表的数字相加。改动原位置和不改动。
 
+### [450.Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst)
+
+写的要优美
+
 ### [464.Can I Win*](https://leetcode.com/problems/can-i-win)
 
 在整数1~n中，两个玩家依次不放回的取一个数字，玩家的得分为取出数字的和，得分先打到预定值x的获胜。问先手玩家能否获胜。
@@ -680,6 +760,10 @@ n个数字，分成m份。使得最大的区间和最小。求这个最小值。
 给出许多只含有`0`,`1`的串，求当0和1的个数分别为m,n的情况下，能组成多少个串。
 
 简单背包，DP。只是重量变成了二维，价值为1。
+
+### [*480.Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)
+
+求滑动窗口的中值。还是用两个heap实现，分别存放窗口大小的一半。插入值，对比top值，选择插入的heap。删除时，用hash记录一下，哪些需要删除，当top遇到这些值的时候，删除即可。
 
 ### [486.Predict the Winner*](https://leetcode.com/problems/predict-the-winner)
 
@@ -711,6 +795,12 @@ n个数字，分成m份。使得最大的区间和最小。求这个最小值。
 
 和496的区别是数组构成一个环，还是利用stack，第一次遍历全部加入，第二次只是比较不加入。
 
+### [517.Super Washing Machines](https://leetcode.com/problems/super-washing-machines/)
+
+每个洗衣机有不同数量的衣服，每次可以选择任意某些洗衣机，把其中一件衣服往相邻的洗衣机转移。求最少多少次转移。
+
+贪心。以每个洗衣机为中心，要么从它像两边转移，要么两边向他转移，要么从一边到另一边转移。最少的转移次数，是这些得到的最小值。
+
 ### [525.Contiguous Array](https://leetcode.com/problems/contiguous-array)
 
 给一个只含有0 1的数组，求里面最长的区间长度，区间内01个数相等。
@@ -724,6 +814,12 @@ n个数字，分成m份。使得最大的区间和最小。求这个最小值。
 一个数组，不同的数值代表不同的类别，每次可以消去连续的同类别的数字，获得价值为消去区间长度的平方；余下的组成新的数组。求最多可以获得多少价值。
 
 动态规划。`dp[l][r][m]` 代表区间[l, r]，在之前有m个数字和num[l]相同的情况下，可以获得的最大价值和。多加一维的原因是，这样可以转移到子区间来求解，完整的表达状态。`dp[l][r][m]=max(dp[l][r][m], dp[l][i][0] + dp[i+1][r][m+1]) for i in range(l, r+1) if num[i] == num[l]`
+
+### [552.Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/)
+
+动态规划，每个未知只有3种放置方法。和前两位有关系，前两位的状态一种3种，`x0` `01` `11`， 还要记录是否出现过了`A`， 所以一共6中状态。每个位置的状态由上一位的状态转移得到。
+
+这样是O(n)。如果这个转移过程写成矩阵的形式，可以通过矩阵快速幂得到，O(log(n))。
 
 ### [556.Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii)
 
@@ -824,4 +920,14 @@ Person表是主表，Address表是从表，通过Left Outer Join左外连接
 `update salary set sex = if(sex='m', 'f', 'm');`
 
 `update salary set sex = char(ASCII(sex) ^ ASCII('m') ^ ASCII('f'));`
+
+## Shell
+
+### [192Word Frequency](https://leetcode.com/problems/word-frequency)
+
+`cat words.txt | tr -s ' ' '\n' | sort | uniq -c | sort -rn | awk '{print $2 " " $1}'`
+
+### [195.Tenth Line](https://leetcode.com/problems/tenth-line)
+
+`sed -n 10p file.txt` 
 

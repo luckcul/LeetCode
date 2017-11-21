@@ -40,10 +40,12 @@ public:
 
 int main() {
 #ifndef ONLINE_JUDGE
-	freopen("in.txt", "r", stdin); 
+	// freopen("in.txt", "r", stdin); 
 #endif // ONLINE_JUDGE
+	string in; 
+	cin>>in;
 	Solution x = Solution();
-	cout<<x.addBinary("1", "111");
+	cout<<x.addBinary(in, "111");
 	
 	return 0; 
 }

@@ -1,3 +1,16 @@
+#include <cstdio>
+#include <cstring>
+#include <algorithm>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <cmath>
+#include <queue>
+#include <map>
+#include <set>
+using namespace std; 
+#define INF 1000000000
+typedef long long LL; 
 class Solution {
 public:
     int hIndex(vector<int>& citations) {
@@ -14,3 +27,6 @@ public:
         }
     }
 };
+int main() {
+    cout<<"hello"<<endl;
+}
