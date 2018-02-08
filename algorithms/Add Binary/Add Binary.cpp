@@ -4,16 +4,7 @@
  	Created Time  : 2017-06-25 22:08:47
  	Problem       : Add Binary
 ************************************************ */
-#include <cstdio>
-#include <cstring>
-#include <algorithm>
-#include <iostream>
-#include <string>
-#include <vector>
-#include <cmath>
-#include <queue>
-#include <map>
-#include <set>
+#include<bits/stdc++.h>
 using namespace std; 
 #define INF 1000000000
 //typedef __int64 LL; 
@@ -46,6 +37,7 @@ int main() {
 	cin>>in;
 	Solution x = Solution();
 	cout<<x.addBinary(in, "111");
+	cout<<"ok1"<<endl;
 	
 	return 0; 
 }

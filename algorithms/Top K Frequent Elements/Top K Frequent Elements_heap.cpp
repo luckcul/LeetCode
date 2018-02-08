@@ -4,17 +4,7 @@
  	Created Time  : 2017-07-26 14:11:07
  	Problem       : Top K Frequent Elements
 ************************************************ */
-#include <cstdio>
-#include <cstring>
-#include <algorithm>
-#include <iostream>
-#include <string>
-#include <vector>
-#include <cmath>
-#include <queue>
-#include <unordered_map>
-#include <map>
-#include <set>
+#include<bits/stdc++.h>
 using namespace std; 
 #define INF 1000000000
 //typedef __int64 LL; 
