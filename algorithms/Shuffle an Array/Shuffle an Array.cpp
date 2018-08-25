@@ -17,28 +17,24 @@
 using namespace std; 
 #define INF 1000000000
 //typedef __int64 LL; 
-
 class Solution {
-private: 
-	vector<int> v;
+    vector<int> nums; 
 public:
-    Solution(vector<int> nums) {
-        v = nums;
+    Solution(vector<int> nums):nums(nums) {
     }
     
     /** Resets the array to its original configuration and return it. */
     vector<int> reset() {
-        return v;
+        return nums; 
     }
     
     /** Returns a random shuffling of the array. */
     vector<int> shuffle() {
-        vector<int> ret = v;
+        vector<int> ret=nums; 
         for(int i = 0; i < ret.size(); i++) {
-        	int swapId = rand()%ret.size();
-        	swap(ret[i], ret[swapId]);
+            swap(ret[i], ret[i+ rand()%(ret.size()-i)]);
         }
-        return ret;
+        return ret; 
     }
 };
 
