@@ -1060,6 +1060,10 @@ Person表是主表，Address表是从表，通过Left Outer Join左外连接
 
 简单
 
+### [626. Exchange Seats](https://leetcode.com/problems/exchange-seats/)
+
+交换id
+
 ### [627.Swap Salary](https://leetcode.com/problems/swap-salary)
 
 `update salary set sex = if(sex='m', 'f', 'm');`
